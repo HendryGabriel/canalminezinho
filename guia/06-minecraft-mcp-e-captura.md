@@ -15,6 +15,7 @@ Alternativas: `cuspymd/mcp-server-mod` (mais simples, só comandos de uma lista 
 1. Prism Launcher → nova instância **1.21.11 Fabric**.
 2. Mods (Modrinth, versão 1.21.11): Fabric API, `fabric-api-mcp-server`, Sodium, Iris, Distant Horizons, Flashback, WorldEdit, Chunky, Camera Utils.
 3. Shader: Complementary Reimagined (funciona com Distant Horizons).
+   Para personagens e expressões (guia 09, "Com mods"): Easy NPC, Emotecraft, Emotecraft x Easy NPC, Entity Model Features, Entity Texture Features + o pacote de textura Fresh Animations. Opcional depois: Blockbench + Animated Java.
 4. Mundo criativo **com cheats**. Apertar **F3+P** (o jogo não pausa quando você vai para o terminal).
 5. Testar: `curl http://127.0.0.1:8765/healthz`
 6. No terminal, na pasta do projeto:

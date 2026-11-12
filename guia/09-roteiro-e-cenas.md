@@ -120,6 +120,48 @@ O Minecraft não tem rosto que mexe. "Expressão" vira corpo, cabeça, partícul
 | morrer | `/damage` ou `/kill` (vira fumaça) |
 | ficar parado | NoAI:1b e `immovable` (mannequin) |
 
+### Com mods: gestos, poses e rostos (pesquisa de 12/11/2026, ainda não testado)
+Sem mod, a expressão é só corpo, cabeça, partícula e som (tabela acima). Com mods dá para ir além.
+Todos precisam rodar na **mesma versão do MCP (Java 1.21.11 Fabric)**. Confira no Modrinth antes de instalar.
+
+| Mod | O que dá | Por comando? | Versão |
+|---|---|---|---|
+| **Easy NPC** (bundle ou Core + Config UI) | personagens com qualquer skin, poses próprias (braços, pernas, cabeça), diálogos, spawn/despawn por comando | sim (`/easy_npc ...`) | Fabric 1.21.1 e 1.21.11 |
+| **Emotecraft x Easy NPC** (+ Emotecraft) | gestos animados no NPC: acenar, bater palma, apontar, dançar, sentar, comemorar... | sim: `/enpcemote play <emote> [max_ticks]` no NPC | Fabric 1.21.9–1.21.11 |
+| **Fresh Animations** (pacote de textura) + **EMF** + **ETF** | villagers e mobs piscam, mexem sobrancelha, respiram, rosto mais vivo | **não**: é automático (dá vida, não dá para mandar) | 1.21–1.21.11 |
+| **Animated Java** (plugin do Blockbench, exporta datapack) | personagem próprio com rosto que muda (olhos, boca, sobrancelha) e qualquer animação | sim: cada animação é uma `/function` (sem mod) | conferir a versão antes |
+
+Escolha padrão:
+1. **Personagem principal e gestos:** Easy NPC + Emotecraft x Easy NPC (no lugar do mannequin). ⚠️ Testar primeiro: uma nota de versão do Easy NPC diz que NPCs humanoides passaram a ignorar "modelos, animações e poses de jogador personalizados". Se o emote não tocar, use um NPC do tipo jogador/outro tipo ou o Animated Java.
+2. **Villagers vivos no fundo:** Fresh Animations + EMF + ETF.
+3. **Personagem especial que fala e reage com o rosto:** Animated Java (mais tarde; precisa modelar e animar no Blockbench 1 vez).
+
+#### Expressão → o que pôr no `cenas.md`
+Com os mods, a ficha da cena usa estas ações. O Claude troca pelo comando certo.
+| Expressão / ação | Com Easy NPC + Emotecraft | Com Animated Java | Sem mod (plano B) |
+|---|---|---|---|
+| acenar / dar oi | `emote: wave` | `anim: acenar` | braço do armor stand para cima e para baixo (`Pose`) |
+| bater palma / comemorar | `emote: clap` / `emote: cheer` | `anim: comemorar` | pulos curtos + partícula `happy_villager` |
+| apontar para algo | `emote: point` + virar a cabeça | `anim: apontar` | armor stand com braço esticado |
+| pensar / dúvida | `emote: think` (mão no queixo) | `anim: pensar` + rosto "dúvida" | cabeça inclinada (`Pose.Head`) |
+| surpresa / susto | `emote: shock` | rosto "surpreso" (olho grande, boca aberta) | recua 1 bloco + som de hurt |
+| rir | `emote: laugh` | rosto "rindo" + corpo balançando | partícula `note` + som |
+| triste | `emote: sad` (cabeça baixa) | rosto "triste" | agachado + olhando para baixo |
+| bravo | `emote: angry` | rosto "bravo" (sobrancelha para baixo) | partícula `angry_villager` + som "no" |
+| sentar | pose sentado do Easy NPC | `anim: sentar` | armor stand sentado (pernas a 270°) |
+| dançar | `emote: dance` | `anim: dancar` | — |
+| falar | `emote: talk` (gesto de mão) | boca abrindo e fechando no tempo da frase | balão com `text_display` |
+
+Os nomes dos emotes (`wave`, `clap`...) dependem dos arquivos de emote instalados no Emotecraft. Na instalação, o Claude lista os emotes que existem e atualiza esta tabela com os nomes reais.
+
+Exemplo na ficha:
+```
+ações (tempo a partir do início da F012):
+  +0,0  NARRADOR emote: point (para a mansão), cabeça vira para a mansão
+  +1,5  NARRADOR emote: shock
+  F013 início  VILLAGER "Zé" emote: laugh
+```
+
 ## 4. Como o Claude executa (depois de receber a voz)
 1. `alinhar_voz.py` → `tempos.json` (início/fim de cada F e das pausas).
 2. Para cada cena: converte segundos em ticks (1 s = 20 ticks) e escreve uma função de datapack com o cenário, o elenco, as ações e o caminho da câmera, tudo na hora certa (`/schedule`). Datapack em `saves/<mundo>/datapacks/cenas/`, depois `/reload`.
