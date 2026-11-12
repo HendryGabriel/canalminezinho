@@ -4,6 +4,13 @@ Inteligência para fazer vídeos de **documentário de Minecraft** no estilo do 
 
 Estudo feito em 12/11/2026: 12 vídeos longos (todos com transcrição lida), 7 longos e 3 Shorts baixados e medidos (cortes, volume, quadros), 113 Shorts listados, 12 thumbnails olhadas, análise de edição/som pelo Gemini e pesquisa das ferramentas e dos MCPs de Minecraft.
 
+## Como usar
+Abra o Claude Code nesta pasta. Na 1ª mensagem de cada conversa ele pergunta:
+1. **Formato:** A documentário · B novelinha/machinima · C luta estilo anime no Blender · D só Shorts.
+2. **Voz:** você grava · TTS do Gemini (Google AI Studio).
+
+Depois ele segue o guia do formato escolhido.
+
 ## Comece aqui
 | Arquivo | O que tem |
 |---|---|
@@ -19,6 +26,8 @@ Estudo feito em 12/11/2026: 12 vídeos longos (todos com transcrição lida), 7 
 | [guia/09-roteiro-e-cenas.md](guia/09-roteiro-e-cenas.md) | Roteiro com tom e pausa + arquivo de cenas (câmera, NPCs, expressões) para o MCP |
 | [guia/10-machinima.md](guia/10-machinima.md) | Cenas de filme: 3 níveis, planos, regras de cinema, diálogo, lip sync, direitos |
 | [guia/11-minecraft-para-blender.md](guia/11-minecraft-para-blender.md) | Mundo e personagens do Minecraft no Blender, efeitos (aura, raio, explosão), Dragon Mine Z, portar mods antigos com IA |
+| [guia/12-novelinha.md](guia/12-novelinha.md) | Formato B: novelinha/machinima de histórias, itens da vida real, câmera de novela automática |
+| [guia/13-vozes.md](guia/13-vozes.md) | Voz: gravar você mesmo ou TTS do Gemini (voz fixa por personagem) |
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
 ## Pastas

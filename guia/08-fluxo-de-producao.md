@@ -22,7 +22,8 @@ Cada vídeo fica em `videos/NN_tema/` (o áudio e os vídeos não sobem para o G
 - `cenas.md`: uma ficha por cena com cenário, elenco, ações, expressões e câmera (guia 09 §3).
 - Você lê o roteiro e pede ajustes. As cenas você não precisa ler.
 
-## 3. Voz — você
+## 3. Voz — você grava, ou TTS do Gemini
+Escolhido na 1ª mensagem da conversa (CLAUDE.md). Com **TTS**, o Claude gera as falas no AI Studio (guia 13) e pula para o passo 4. Com **eu gravo**:
 - Grava lendo o `roteiro.md`, edita (corta erro e respiro, limpa ruído) e salva `voz.wav` na pasta do vídeo.
 - Nas `[pausa de cena N s]` deixe só 2 s: o Claude estica.
 - Avise: "voz pronta do vídeo NN".

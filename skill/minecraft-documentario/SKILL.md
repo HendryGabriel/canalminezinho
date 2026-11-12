@@ -1,6 +1,6 @@
 ---
 name: minecraft-documentario
-description: Planeja e produz vídeos de documentário de Minecraft no estilo do canal TheLuics (escala, "E se...?", "É possível...?", 20-30 min, cinematic com shader, estúdio 3D, esquetes, final emocional) usando o Claude Code e o MCP do Minecraft para montar as cenas. Cobre ideia, roteiro, lista de planos, comandos de cena, gravação no Flashback, Blender, edição, efeitos sonoros, música, thumbnail, título e Shorts. Use SEMPRE que o usuário falar em vídeo de Minecraft, canal de Minecraft, documentário de Minecraft, TheLuics, canalminezinho, MCP do Minecraft para vídeo, ou pedir roteiro/thumbnail/edição de vídeo de Minecraft, mesmo que não diga "skill".
+description: Planeja e produz vídeos de Minecraft (documentário, novelinha/machinima de histórias, luta estilo anime no Blender, Shorts) e, no formato principal, vídeos de documentário de Minecraft no estilo do canal TheLuics (escala, "E se...?", "É possível...?", 20-30 min, cinematic com shader, estúdio 3D, esquetes, final emocional) usando o Claude Code e o MCP do Minecraft para montar as cenas. Cobre ideia, roteiro, lista de planos, comandos de cena, gravação no Flashback, Blender, edição, efeitos sonoros, música, thumbnail, título e Shorts. Use SEMPRE que o usuário falar em vídeo de Minecraft, canal de Minecraft, documentário de Minecraft, TheLuics, canalminezinho, MCP do Minecraft para vídeo, ou pedir roteiro/thumbnail/edição de vídeo de Minecraft, mesmo que não diga "skill".
 ---
 
 # Documentário de Minecraft (método TheLuics)
@@ -35,6 +35,11 @@ Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminez
 8. Efeito sonoro em todo texto e revelação; música troca com a emoção, abaixa na fala, sobe nas pausas; master -14 LUFS.
 9. Thumb: 1-3 palavras em fonte grossa branca com volume 3D + 1 imagem de escala; 3 versões para teste A/B.
 10. Não copiar a obra dele (skin, Steve Bo, "Anomalias do Minecraft", roteiros). Não usar a trilha oficial do Minecraft (Content ID).
+
+## 1ª coisa em cada conversa nova (1 vez só)
+Pergunte numa só AskUserQuestion: **formato** (A documentário · B novelinha/machinima · C luta estilo anime no Blender · D só Shorts) e **voz** (eu gravo · TTS do Gemini no AI Studio). Detalhes em `CLAUDE.md` do repositório. Grave em `videos/NN_tema/projeto.md`. Não repita a pergunta na mesma conversa.
+- Formato B: `guia/12-novelinha.md` (episódio, ficha de personagem, itens da vida real, cobertura de câmera de novela com a cena repetida por datapack).
+- Voz por TTS: `guia/13-vozes.md` (voz fixa por personagem em `personagens.md`, até 2 falantes por Run, ~45 Runs/dia por conta).
 
 ## Divisão do trabalho (pedido do usuário, 12/11/2026)
 O usuário só **escolhe a ideia, grava e edita a própria voz**. O Claude faz todo o resto, guiado pelo tempo da fala.
