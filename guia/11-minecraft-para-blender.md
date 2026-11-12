@@ -4,6 +4,30 @@
 Formato 3 do menu (`guia/formatos-e-estilos.md`): qualquer estilo (luta estilo anime, aventura, terror, comédia cartoon, fantasia, ficção científica, drama). As receitas de efeito do §4 servem para todos; escolha as do estilo do projeto.
 Pesquisa de 12/11/2026. Neste PC: **Blender 5.2.3 LTS** instalado e roda por script (`blender -b`). Nenhum add-on de Minecraft instalado ainda.
 
+## 0. O que os maiores canais gringos de animação fazem (estudo de 12/11/2026)
+Estudo completo: `analises/animacao/sintese.md` (+ `element.md`, `rainimator.md`, `kamui.md`), com o "look" no Blender por estilo (§6) e as horas por minuto (§8).
+
+| | Element Animation (5,3 mi) | Rainimator (2,5 mi) | Kamui Animation (8,6 mi) |
+|---|---|---|---|
+| Formato | telejornal cômico de aldeões, com fala | clipe musical de uma saga épica | episódio de família kids, **sem fala** |
+| Duração | 3–15 min | 3,5–5 min | 10–17 min |
+| Views (mediana) | ~2,9 mi | ~5,9 mi | ~2,9 mi |
+| Rosto | sobrancelha e olhos | rosto anime por textura | rosto emoji por textura |
+| Luz | nublada, névoa | neve/fogo, névoa, cor forte | sol forte, saturado |
+| Plano médio | 3,6 s | 1,3–2,7 s | 2,4–2,9 s |
+| Equipe | ~6–8 (Patreon) | 1 pessoa em 2017 → ~11 + 4 vozes | estúdio |
+
+Lições:
+1. **Formato fixo + personagens fixos + mobs do Minecraft como elenco** (ninguém precisa explicar quem é).
+2. **Gancho no 1º minuto** que cumpre o título; final que puxa o próximo vídeo.
+3. **Textura de pixel + luz de cinema** (DOF, motion blur, névoa): é isso que parece caro.
+4. Os recordes de Element e Rainimator são de 2017–2019; hoje fazem 1–4 mi. O Kamui (sem fala, kids) é o que mais cresce agora: **sem fala serve para qualquer idioma**.
+5. **Filme completo** juntando episódios faz dezenas de milhões com material pronto.
+6. Rainimator usa música de bandas (licenciada ou feita para ele). Para nós: música só com direito de uso.
+7. Kamui é canal de fã autorizado pelas regras do Maizen. Para nós: só personagens próprios.
+
+**Por onde começar:** episódio **kids sem fala de 3–5 min** (o mais barato: 8–15 h por minuto pronto, contra 30–60 h de um clipe épico com luta). Depois testar humor com fala, e só então ação épica/luta estilo anime.
+
 ## 1. Ferramentas
 | Ferramenta | Para que | Versão / compatível | Link |
 |---|---|---|---|

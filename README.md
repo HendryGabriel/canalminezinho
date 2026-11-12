@@ -33,7 +33,9 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
 ## Pastas
-- `analises/roteiros/` — análise de roteiro de cada vídeo + síntese.
+- `analises/machinima/` — estudo de Aphmau, Maizen e Cash (machinima gringa) + síntese.
+- `analises/animacao/` — estudo de Element Animation, Rainimator e Kamui Animation (animação 3D gringa) + síntese com o "look" no Blender.
+- `analises/roteiros/` — análise de roteiro de cada vídeo do TheLuics + síntese.
 - `analises/gemini/` — análise de edição, efeitos e música de cada vídeo (Gemini Pro).
 - `analises/ferramentas-minecraft.md` — pesquisa completa dos MCPs, mods, Blender, Tripo, música.
 - `dados/` — lista de vídeos e Shorts com views.

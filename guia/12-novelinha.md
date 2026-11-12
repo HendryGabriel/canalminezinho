@@ -5,6 +5,49 @@ A IA monta o cenário, posiciona o elenco, filma de vários ângulos e corta no 
 
 Regra de direitos: personagens, nomes, histórias e skins **próprios**. Não recriar séries, personagens ou bordões de outros canais.
 
+## 0. O que os maiores canais gringos fazem (estudo de 12/11/2026)
+Estudo completo: `analises/machinima/sintese.md` (+ `aphmau.md`, `maizen.md`, `cash.md`).
+
+| | Aphmau (25 mi inscr.) | Maizen (18 mi) | Cash (12 mi) |
+|---|---|---|---|
+| Estilo | novela romântica | desenho dublado com roteiro | gincana com números |
+| Views (mediana) | ~1 mi | ~2 mi | ~1,4 mi |
+| Duração | ~21 min | ~24 min | ~19 min |
+| Fala | ~170 pal/min, elenco ao vivo | ~120 pal/min, um fala por vez | ~220 pal/min |
+| Legenda | só frase-chave | completa, cor por personagem | quase nada |
+| Música | rara | o tempo todo | baixa |
+
+O que os 3 fazem igual:
+1. **Gravam no jogo, em primeira pessoa** do protagonista, com a barra do jogo na tela. Sem shader pesado, sem câmera de cinema. A sensação é "estou jogando com você".
+2. **Elenco fixo** com cor ou visual fácil de reconhecer + **uma fantasia nova por vídeo** (lobisomem, rei dragão, bebê, família adotiva).
+3. **Mapa e mods feitos para o roteiro:** celular, poderes, lojas com preço, contadores, transformações.
+4. **Gancho no meio da ação** (0–40 s), premissa em 1 frase até 1:30, sem "olá".
+5. 7–9 blocos de 1,5–3 min que crescem, viradas perto de 60% e 80%, **final feliz + piada**, CTA de 10 s sempre igual.
+6. Público de 6–14 anos, mas **nenhum marcado "para crianças"**: tudo leve (morte vira piada, sem sangue).
+
+**Decisão para o nosso formato 2:** a base é a deles (primeira pessoa no jogo, elenco fixo, mapa e regras feitos para o roteiro, episódio de ~20 min). A câmera de novela com vários ângulos (§4) entra **por cima**, nos momentos fortes: abertura do lugar, revelações, reações, clímax. É o nosso diferencial, sem perder a cara de "jogando junto".
+
+### Molde de episódio (20 min)
+| % | Em 20 min | Bloco |
+|---|---|---|
+| 0–3% | 0:00–0:35 | gancho no perigo ou na piada |
+| 3–8% | 0:35–1:35 | premissa + regra ou número + o que está em jogo |
+| 8–25% | 1:35–5:00 | 1ª tentativa, dá certo pela metade |
+| 25–45% | 5:00–9:00 | escala + 1º racha no grupo |
+| 45–60% | 9:00–12:00 | virada do meio (disfarce, plano descoberto) |
+| 60–80% | 12:00–16:00 | maior desafio + momento emocional rápido |
+| 80–92% | 16:00–18:30 | clímax visual (chefão, explosão, onda) |
+| 92–98% | 18:30–19:40 | resolução + piada |
+| 98–100% | 19:40–20:00 | CTA fixo de 10 s |
+Um acontecimento novo a cada 60–90 s; troca de lugar a cada 2–3 min (= capítulos).
+
+### Mecânicas do jogo que o Claude faz por comando (sem mod)
+Placar (`/scoreboard`), timer (`/bossbar`), "UPGRADE!" (`/title`), avisos (`tellraw`), loja com preço (`text_display` + `/trigger`), onda/tsunami subindo (`/fill` de água agendado), explosões (TNT por comando), gigante/bebê (`/attribute ... scale`), celular e objetos (modelos próprios no pacote de textura).
+
+### Títulos e thumbs
+- Títulos: até 7 palavras, CAIXA ALTA na palavra de emoção, "!" ou ".." no fim. Fórmulas: "Fui ADOTADO por [família estranha] no Minecraft!", "Virei o REI [de X] no Minecraft..", "[NOOB] vs [PRO]: ...", "De POBRE a RICO: ...", "[Base X] vs [Desastre Y]!", "Nós [verbo] TODOS os [X]..". Mais 9 em `analises/machinima/sintese.md` §5.
+- Thumb: render 3D com rosto expressivo (Blender), protagonista no centro, 1 ameaça ou desejo grande ao lado, tela dividida para comparar (POBRE/RICO), quase sem texto, cores fortes.
+
 ## 1. Formato do episódio
 | Item | Valor |
 |---|---|

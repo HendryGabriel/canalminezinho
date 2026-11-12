@@ -29,7 +29,9 @@ Shorts saem de qualquer formato (guia 07).
 ### 2 — Machinima
 | Estilo | Clima | Música e luz |
 |---|---|---|
-| Novelinha / drama | família, segredo, romance, ciúme | trilha de novela, luz quente, close dramático |
+| Gincana com números (como Cash) | regra do jogo, loja, níveis, "pobre vs rico", "base vs desastre" | trilha leve, placar e timer na tela, fala rápida |
+| Desenho dublado (como Maizen) | dupla esperto/medroso, pegadinha, proteger a família | música o tempo todo, legenda colorida por personagem |
+| Novela romântica / drama (como Aphmau) | família, segredo, romance, ciúme | trilha de novela, luz quente, close dramático |
 | Comédia | situação absurda, personagem bobo | marimba/cômica, cortes rápidos, vinil arranhando |
 | Mistério / terror leve | barulho à noite, casa abandonada | drone escuro, neblina, noite, tocha |
 | Aventura | viagem, tesouro, missão | orquestral, paisagens, drone de câmera |
@@ -38,6 +40,9 @@ Shorts saem de qualquer formato (guia 07).
 ### 3 — Animações complexas
 | Estilo | O que pesa na cena | Efeitos principais |
 |---|---|---|
+| Episódio kids sem fala (como Kamui) | família, transformação, confusão, final feliz; serve para qualquer idioma | rosto emoji por textura, corações/"!?", vinheta branca de memória · **o mais barato para começar** |
+| Telejornal cômico de mobs (como Element) | notícia de ameaça, plano que dá errado, multidão | névoa, explosão com flash, multidão de mobs |
+| Clipe musical de saga (como Rainimator) | heróis, guerra entre reinos, música conduz tudo | neve, fogo, olhos brilhando, câmera lenta · só música com direito de uso |
 | Luta estilo anime | poder, transformação, rivalidade | aura, raios de energia, choque de golpes, crateras, velocidade |
 | Aventura épica | jornada, monstro gigante, mundo grande | paisagem volumétrica, voo, chefão, câmera ampla |
 | Terror | perseguição, criatura, escuro | luz de lanterna, neblina, sustos, som grave |
