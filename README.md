@@ -34,6 +34,7 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 
 ## Pastas
 - `analises/machinima/` — estudo de Aphmau, Maizen e Cash (machinima gringa) + síntese.
+- `analises/gemini-gringos/` — análise de edição, som e música dos 6 canais gringos (Gemini; conferir "como é feito" nos quadros).
 - `analises/animacao/` — estudo de Element Animation, Rainimator e Kamui Animation (animação 3D gringa) + síntese com o "look" no Blender.
 - `analises/roteiros/` — análise de roteiro de cada vídeo do TheLuics + síntese.
 - `analises/gemini/` — análise de edição, efeitos e música de cada vídeo (Gemini Pro).

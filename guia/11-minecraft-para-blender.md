@@ -26,6 +26,12 @@ Lições:
 6. Rainimator usa música de bandas (licenciada ou feita para ele). Para nós: música só com direito de uso.
 7. Kamui é canal de fã autorizado pelas regras do Maizen. Para nós: só personagens próprios.
 
+**Som e voz (Gemini, `analises/gemini-gringos/`):**
+- Element: vozes humanas (1–2 pessoas fazem quase todas), aldeões com o tom mudado na edição; a música recua quando a piada é falada; orquestra épica na batalha, piano e cordas na morte.
+- Kamui: sem fala, só grunhidos, risadas e gritinhos reais com o tom subido; música baixa nas ações e alta nos momentos quietos ou tristes; troca de música por cena (descoberta → pânico → brincadeira → tristeza → casamento).
+- Rainimator: a música é tudo; os cortes seguem a batida, mais rápidos no refrão.
+- Sinais de animação 3D (para conferir no nosso): cotovelo e joelho dobrando, rosto que muda, DOF, motion blur, névoa, objetos que não são blocos.
+
 **Por onde começar:** episódio **kids sem fala de 3–5 min** (o mais barato: 8–15 h por minuto pronto, contra 30–60 h de um clipe épico com luta). Depois testar humor com fala, e só então ação épica/luta estilo anime.
 
 ## 1. Ferramentas

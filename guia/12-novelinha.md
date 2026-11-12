@@ -27,6 +27,13 @@ O que os 3 fazem igual:
 
 **Decisão para o nosso formato 2:** a base é a deles (primeira pessoa no jogo, elenco fixo, mapa e regras feitos para o roteiro, episódio de ~20 min). A câmera de novela com vários ângulos (§4) entra **por cima**, nos momentos fortes: abertura do lugar, revelações, reações, clímax. É o nosso diferencial, sem perder a cara de "jogando junto".
 
+### Som e voz (Gemini + legenda automática; `analises/gemini-gringos/`)
+- **A voz é tudo.** Mix aproximado: voz 100%, efeitos 60%, música 20–30%. A música some nas falas importantes.
+- Vozes humanas, muito energéticas (todos gritam, riem e choram de verdade). Personagens infantis com o tom subido 2–3 semitons na edição.
+- Música troca a cada cena (mistério → ação → cômica de "elevador" no planejamento → furtiva → épica no clímax). Maizen deixa música o tempo todo; Aphmau e Cash, baixa.
+- Efeito em toda piada, golpe, susto e texto.
+- Atenção: o Gemini disse que Maizen é animação 3D, mas os quadros mostram gravação no jogo em 1ª pessoa. Confira sempre nos quadros.
+
 ### Molde de episódio (20 min)
 | % | Em 20 min | Bloco |
 |---|---|---|
