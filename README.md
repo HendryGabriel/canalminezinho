@@ -28,7 +28,7 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [guia/09-roteiro-e-cenas.md](guia/09-roteiro-e-cenas.md) | Roteiro com tom e pausa + arquivo de cenas (câmera, NPCs, expressões) para o MCP |
 | [guia/10-machinima.md](guia/10-machinima.md) | Cenas de filme: 3 níveis, planos, regras de cinema, diálogo, lip sync, direitos |
 | [guia/11-minecraft-para-blender.md](guia/11-minecraft-para-blender.md) | Mundo e personagens do Minecraft no Blender, efeitos (aura, raio, explosão), Dragon Mine Z, portar mods antigos com IA |
-| [guia/12-novelinha.md](guia/12-novelinha.md) | Formato B: novelinha/machinima de histórias, itens da vida real, câmera de novela automática |
+| [guia/12-novelinha.md](guia/12-novelinha.md) | Formato 2 (Machinima): novelinha e histórias, itens da vida real, câmera de novela automática |
 | [guia/13-vozes.md](guia/13-vozes.md) | Voz: gravar você mesmo ou TTS do Gemini (voz fixa por personagem) |
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
