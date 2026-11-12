@@ -57,6 +57,36 @@ Sempre: neblina e poeira no ar, luz colorida vinda do efeito, câmera com tremid
 **Recomendação:** fazer uma **série própria de luta estilo anime** no Blender: personagens próprios (skins e nomes seus), poderes próprios (cor, nome e forma da aura e dos golpes) e história própria, usando os elementos do gênero (treino, transformação, aura, raio de energia, luta no céu, cratera). Fica mais bonito que o mod, fica tudo no seu controle e o canal fica seguro.
 Se mesmo assim quiser usar o Dragon Mine Z, use só para referência ou testes, não para vídeo monetizado.
 
+## 5b. Portar mods antigos para versões novas com IA
+Muitos mods estão no GitHub. Com o Claude dá para atualizar um mod antigo para a versão que usamos (mesma do MCP). Antes, olhe 3 coisas:
+
+**1. Tamanho do mod**
+| Mod | Trabalho | Vale a pena? |
+|---|---|---|
+| pequeno (1–2 funções, sem render próprio) | horas a poucos dias | sim, quando faltar um mod que precisamos |
+| médio (entidades, rede, render) | 1–3 semanas | só se for essencial |
+| grande + troca de loader (ex.: Dragon Mine Z, Forge 1.20.1 → Fabric 1.21.11/26.x) | semanas a meses, muitos bugs, muito teste no jogo | não |
+
+Cada versão nova do Minecraft pode quebrar o port de novo: é manutenção para sempre.
+
+**2. Licença (arquivo LICENSE do repositório)**
+- MIT, Apache, GPL, LGPL: pode alterar.
+- GPL: se distribuir o port, publique o código com a mesma licença. Só no seu PC: sem obrigação.
+- "All Rights Reserved" ou sem licença: **não pode** alterar e distribuir. Peça permissão ao autor.
+- Dragon Mine Z: GPLv3 (segundo a documentação oficial dele).
+
+**3. Direitos do conteúdo**
+A licença do mod cobre só o código. Personagens, nomes e visuais de uma franquia (ex.: Dragon Ball) continuam protegidos. Portar o mod não muda o risco do vídeo (§5).
+
+**Como fazer (quando valer a pena)**
+1. Conferir a licença.
+2. Clonar o repositório numa pasta própria (`mods-port/<nome>`).
+3. Plugin "Minecraft Modding" do diretório de plugins do Claude Code (porta mods entre versões e loaders, focado em 26.x) + plugin "Headlessmc" (abre o Minecraft por linha de comando para testar o mod).
+4. Portar, compilar, testar no jogo (abrir mundo, usar cada função, olhar o log).
+5. Guardar o port com o mesmo tipo de licença e um aviso de que é um port não oficial.
+
+**Decisão para o Dragon Mine Z:** não portar. Se quiser só testar, rode numa instância separada (Forge 1.20.1). Para os vídeos, os efeitos (aura, raio, transformação) ficam melhores no Blender, com personagens próprios.
+
 ## 6. O que o Claude automatiza no Blender
 O Blender roda por script: `"C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" -b cena.blend -P script.py`.
 O Claude consegue:
