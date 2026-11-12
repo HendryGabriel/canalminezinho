@@ -33,6 +33,18 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [guia/14-estudo-reel-luta.md](guia/14-estudo-reel-luta.md) | Estudo quadro a quadro de um reel de luta estilo anime: cortes, quadros de impacto, efeitos e como fazer com personagens próprios |
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
+## Pronto para usar
+| O quê | Onde |
+|---|---|
+| Modelos para preencher (projeto, ideia, fatos, personagens, roteiro, cenas, publicação) | `modelos/` |
+| Exemplos completos: documentário "Quanto vale um mundo do Minecraft?", machinima EP. 1 "Salvamos a pastelaria da Vó", animação kids "A Vovó ficou pequenininha!?" | `exemplos/` |
+| Checklists de cada etapa (ideia → publicação → resultado) | `checklists.md` |
+| Registro do que funciona e do que quebra (o Claude lê no começo e escreve no fim) | `aprendizados.md` |
+| Música, sons, rigs, skins, mapas e fontes com licença conferida + modelo de créditos | `biblioteca/` |
+| Scripts testados: voz → tempos, montagem automática com efeitos e −14 LUFS, lip sync, thumbs | `ferramentas/alinhar_voz.py`, `ferramentas/edicao/` |
+| Blender por script: 4 looks, 11 efeitos, montar e renderizar planos | `ferramentas/blender/` |
+| Jogo: datapack de cena (câmera + ações no tempo) e gravação do OBS | `ferramentas/minecraft/` (ainda sem teste no jogo) |
+
 ## Pastas
 - `analises/machinima/` — estudo de Aphmau, Maizen e Cash (machinima gringa) + síntese.
 - `analises/gemini-gringos/` — análise de edição, som e música dos 6 canais gringos (Gemini; conferir "como é feito" nos quadros).

@@ -16,6 +16,13 @@ Não pergunte de novo na mesma conversa. Não pergunte o que o usuário já resp
 
 Grave as respostas em `videos/NN_tema/projeto.md`. Se a conversa continuar um vídeo que já tem `projeto.md`, leia o arquivo e confirme em 1 linha em vez de perguntar.
 
+## Arquivos de trabalho
+- No começo de todo projeto: ler `aprendizados.md` (o que já funcionou e o que quebrou).
+- Copiar os modelos de `modelos/` para `videos/NN_tema/` e preencher. Ver o exemplo do formato em `exemplos/` antes de escrever.
+- Seguir `checklists.md` em cada etapa. No fim do vídeo: escrever em `aprendizados.md`.
+- Música, sons, skins, rigs e mapas: só de `biblioteca/` (licença conferida) e com créditos na descrição.
+- Scripts: `ferramentas/alinhar_voz.py` (voz → tempos), `ferramentas/minecraft/` (datapack de cenas, OBS), `ferramentas/edicao/` (montagem, efeitos, lip sync, thumbs), `ferramentas/blender/` (looks, efeitos, montar cena).
+
 ## Ferramentas
 O Claude pode usar Blender (por script), ffmpeg, OBS, Minecraft + MCP, Python e o Claude in Chrome (Gemini, AI Studio, sites de mods). Instalar programa/mod, aceitar termos ou comprar: só com o OK do usuário.
 

@@ -8,6 +8,9 @@ description: Planeja e produz vídeos de Minecraft em 3 formatos (documentário,
 Fonte de tudo: o repositório `canalminezinho` (github.com/HendryGabriel/canalminezinho).
 Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminezinho\`. Em outro PC, ache o clone (ou clone de novo) e leia os guias de lá.
 
+## Material pronto no repositório
+`aprendizados.md` (ler primeiro) · `modelos/` (copiar e preencher) · `exemplos/` (1 projeto completo por formato) · `checklists.md` · `biblioteca/` (assets com licença) · scripts em `ferramentas/` (`alinhar_voz.py`, `edicao/`, `blender/`, `minecraft/`), cada um com `--teste`.
+
 ## Leia antes de começar
 | Etapa | Guia |
 |---|---|
