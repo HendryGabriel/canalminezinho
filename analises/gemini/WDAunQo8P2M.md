@@ -1,6 +1,6 @@
 # Is it possible to get 100% completion in Minecraft?
 id: WDAunQo8P2M
-fonte: análise do Gemini Pro (conta Poio YT), 2026-11-12
+fonte: análise do Gemini Pro, 2026-11-12
 
 Aqui está a análise detalhada da edição do vídeo "É POSSIVEL FAZER 100% DO MINECRAFT?" do canal TheLuics, feita sob medida para você reproduzir o estilo.
 

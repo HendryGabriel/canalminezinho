@@ -1,6 +1,6 @@
 # WHAT IF MINECRAFT NEVER HAD A PLAYER?
 id: OS6G1gPcev0
-fonte: análise do Gemini Pro (conta Poio YT), 2026-11-12
+fonte: análise do Gemini Pro, 2026-11-12
 
 Aqui está a dissecação completa e detalhada da edição do vídeo "E SE O MINECRAFT NUNCA TIVESSE UM JOGADOR?" do TheLuics. Ele usa um formato de Machinima Documental, misturando gameplay cinemático com animação 3D e uma sonoplastia extremamente densa.
 

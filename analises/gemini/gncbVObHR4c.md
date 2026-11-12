@@ -1,6 +1,6 @@
 # THE FANTASTIC FACTORY OF ALL BLOCKS
 id: gncbVObHR4c
-fonte: análise do Gemini Pro (conta Poio YT), 2026-11-12
+fonte: análise do Gemini Pro, 2026-11-12
 
 Aqui está a engenharia reversa completa da edição do vídeo "A FANTÁSTICA FÁBRICA DE TODOS OS BLOCOS", destrinchada ponto a ponto para você reproduzir o estilo.
 

@@ -1,6 +1,6 @@
 # IS THERE ANYONE IN YOUR MINECRAFT WORLD? (Short)
 id: kW3iJkK4jLI
-fonte: análise do Gemini Pro (conta Poio YT), 2026-11-12
+fonte: análise do Gemini Pro, 2026-11-12
 
 Aqui está a análise completa e minuciosa da edição do vídeo "TEM ALGUEM NO SEU MUNDO DO MINECRAFT", estruturada como um manual técnico para você reproduzir esse exato formato de retenção extrema focado no nicho de Minecraft.
 

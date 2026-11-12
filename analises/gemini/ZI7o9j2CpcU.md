@@ -1,6 +1,6 @@
 # THE TRUE SCALE OF MINECRAFT
 id: ZI7o9j2CpcU
-fonte: análise do Gemini Pro (conta Poio YT), 2026-11-12
+fonte: análise do Gemini Pro, 2026-11-12
 
 Aqui está a desconstrução completa, concreta e milimétrica da edição do vídeo "A VERDADEIRA ESCALA DO MINECRAFT" do TheLuics. Este é um aulão de Retenção (estilo MrBeast/Felipe Neto) misturado com Documentário Cinematográfico.
 
