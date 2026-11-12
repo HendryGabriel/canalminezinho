@@ -5,11 +5,13 @@ Inteligência para fazer vídeos de **documentário de Minecraft** no estilo do 
 Estudo feito em 12/11/2026: 12 vídeos longos (todos com transcrição lida), 7 longos e 3 Shorts baixados e medidos (cortes, volume, quadros), 113 Shorts listados, 12 thumbnails olhadas, análise de edição/som pelo Gemini e pesquisa das ferramentas e dos MCPs de Minecraft.
 
 ## Como usar
-Abra o Claude Code nesta pasta. Na 1ª mensagem de cada conversa ele pergunta:
-1. **Formato:** A documentário · B novelinha/machinima · C luta estilo anime no Blender · D só Shorts.
+Abra o Claude Code nesta pasta. Na 1ª mensagem de cada conversa ele pergunta (menu em [guia/formatos-e-estilos.md](guia/formatos-e-estilos.md)):
+1. **Formato:** 1 Documentário · 2 Machinima · 3 Animações complexas (Blender).
 2. **Voz:** você grava · TTS do Gemini (Google AI Studio).
+3. **Estilo** do formato (ex.: luta estilo anime, terror, comédia, novelinha, "e se...?").
+4. **Tema:** você diz, ou ele traz 5 ideias.
 
-Depois ele segue o guia do formato escolhido.
+Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS, Minecraft + MCP e o Claude in Chrome neste PC.
 
 ## Comece aqui
 | Arquivo | O que tem |

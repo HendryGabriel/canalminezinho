@@ -1,4 +1,4 @@
-# Novelinha / machinima de histórias (formato B)
+# Novelinha / machinima de histórias (formato 2 — Machinima)
 
 Histórias entre personagens, em episódios, com itens da vida real (móveis, celular, TV, carro) e personagens que se mexem e fazem gestos. O jeito das séries de roleplay de Minecraft que fizeram sucesso no Brasil, com câmera de cinema/novela.
 A IA monta o cenário, posiciona o elenco, filma de vários ângulos e corta no tempo das falas.

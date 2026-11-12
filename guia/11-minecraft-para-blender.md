@@ -1,5 +1,7 @@
-# Do Minecraft para o Blender (cenário, personagens, efeitos)
+# Animações complexas no Blender (formato 3): cenário, personagens e efeitos do Minecraft
 
+
+Formato 3 do menu (`guia/formatos-e-estilos.md`): qualquer estilo (luta estilo anime, aventura, terror, comédia cartoon, fantasia, ficção científica, drama). As receitas de efeito do §4 servem para todos; escolha as do estilo do projeto.
 Pesquisa de 12/11/2026. Neste PC: **Blender 5.2.3 LTS** instalado e roda por script (`blender -b`). Nenhum add-on de Minecraft instalado ainda.
 
 ## 1. Ferramentas
