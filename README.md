@@ -30,6 +30,7 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [guia/11-minecraft-para-blender.md](guia/11-minecraft-para-blender.md) | Mundo e personagens do Minecraft no Blender, efeitos (aura, raio, explosão), Dragon Mine Z, portar mods antigos com IA |
 | [guia/12-novelinha.md](guia/12-novelinha.md) | Formato 2 (Machinima): novelinha e histórias, itens da vida real, câmera de novela automática |
 | [guia/13-vozes.md](guia/13-vozes.md) | Voz: gravar você mesmo ou TTS do Gemini (voz fixa por personagem) |
+| [guia/14-estudo-reel-luta.md](guia/14-estudo-reel-luta.md) | Estudo quadro a quadro de um reel de luta estilo anime: cortes, quadros de impacto, efeitos e como fazer com personagens próprios |
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
 ## Pastas

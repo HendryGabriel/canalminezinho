@@ -15,6 +15,7 @@ Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminez
 | Roteiro com tom/pausa + arquivo de cenas | `guia/09-roteiro-e-cenas.md` |
 | Machinima / cenas de filme / diálogo | `guia/10-machinima.md` |
 | Minecraft → Blender, efeitos (aura, raio, explosão) | `guia/11-minecraft-para-blender.md` |
+| Luta rápida estilo anime: cortes, quadros de impacto, flash, efeitos | `guia/14-estudo-reel-luta.md` |
 | Entender o formato | `guia/01-o-canal.md` |
 | Roteiro | `guia/02-roteiro.md` (+ exemplos em `analises/roteiros/`) |
 | Imagem e montagem | `guia/03-edicao-visual.md` |
