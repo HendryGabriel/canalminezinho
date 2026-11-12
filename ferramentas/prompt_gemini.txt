@@ -1,0 +1,10 @@
+Assista ao vídeo https://www.youtube.com/watch?v={ID} do canal brasileiro de Minecraft TheLuics e responda em português, em markdown, com minutagem (mm:ss) em tudo. Quero aprender a EDITAR um vídeo igual. Seja concreto, nada genérico.
+
+1. EFEITOS SONOROS: liste pelo menos 30 momentos com efeito sonoro (mm:ss, o que aparece na tela, o som exato: whoosh, riser, boom/impacto grave, ding, pop, clique, som do próprio Minecraft como porta, xp, dano, enderman, cave sound, vinil arranhando, risada, grito, meme). Diga qual tipo de som ele usa para cada situação (corte, texto aparecendo, número revelado, piada, susto, transição de cena).
+2. MÚSICA: liste cada troca de música (mm:ss), o estilo (orquestral épica, piano calmo, ambiente tipo C418, lo-fi, tensão, cômica, música do próprio Minecraft), o volume em relação à voz, quando a música para (silêncio dramático) e quando sobe. Como ele usa a música para criar emoção e humor. Se reconhecer a faixa, diga o nome.
+3. NARRAÇÃO E VOZ: voz real ou IA, ritmo, tom, se há vozes de personagens (villagers, Steve Boy), efeitos na voz (eco, rádio, pitch), pausas.
+4. IMAGEM E CÂMERA: tipos de cena (gameplay com shader, cinematic com câmera lenta, render 3D em fundo cinza tipo Blender, mapa visto de cima, espaço/planetas, fotos reais, vídeo real, gráficos), movimentos de câmera (drone, órbita, dolly, zoom), quanto tempo cada plano dura em média, em quais momentos o ritmo acelera.
+5. TEXTO E GRÁFICOS NA TELA: quando aparece texto, fonte (estilo), cor, contorno, animação (digitando, pop, escala), contadores (DIA/ANO), setas, círculos, réguas de medida, legendas. Ele usa legenda? Memes ou zooms rápidos?
+6. TRANSIÇÕES: tipos (corte seco, fade para preto, whip/zoom, match cut, glitch) e onde.
+7. HUMOR NA EDIÇÃO: como a edição marca as piadas (corte para cena boba, zoom, som, silêncio).
+8. RECEITA: um passo a passo para reproduzir essa edição num editor (DaVinci/Premiere/CapCut) e com quais ferramentas (Replay Mod/Flashback, shaders, Blender, After Effects), na ordem.

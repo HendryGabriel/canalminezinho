@@ -1,0 +1,8 @@
+# vídeos, áudios e imagens de outros criadores ficam só no PC
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.vtt
+cenas/
+render/
