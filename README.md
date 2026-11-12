@@ -17,6 +17,8 @@ Estudo feito em 12/11/2026: 12 vídeos longos (todos com transcrição lida), 7 
 | [guia/07-shorts.md](guia/07-shorts.md) | Shorts |
 | [guia/08-fluxo-de-producao.md](guia/08-fluxo-de-producao.md) | Passo a passo: você grava a voz, o Claude faz o resto |
 | [guia/09-roteiro-e-cenas.md](guia/09-roteiro-e-cenas.md) | Roteiro com tom e pausa + arquivo de cenas (câmera, NPCs, expressões) para o MCP |
+| [guia/10-machinima.md](guia/10-machinima.md) | Cenas de filme: 3 níveis, planos, regras de cinema, diálogo, lip sync, direitos |
+| [guia/11-minecraft-para-blender.md](guia/11-minecraft-para-blender.md) | Mundo e personagens do Minecraft no Blender, efeitos (aura, raio, explosão), Dragon Mine Z |
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
 ## Pastas

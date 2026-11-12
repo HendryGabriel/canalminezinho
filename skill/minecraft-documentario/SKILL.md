@@ -13,6 +13,8 @@ Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminez
 |---|---|
 | Ideia (sempre o 1º passo) | `guia/00-ideias.md` |
 | Roteiro com tom/pausa + arquivo de cenas | `guia/09-roteiro-e-cenas.md` |
+| Machinima / cenas de filme / diálogo | `guia/10-machinima.md` |
+| Minecraft → Blender, efeitos (aura, raio, explosão) | `guia/11-minecraft-para-blender.md` |
 | Entender o formato | `guia/01-o-canal.md` |
 | Roteiro | `guia/02-roteiro.md` (+ exemplos em `analises/roteiros/`) |
 | Imagem e montagem | `guia/03-edicao-visual.md` |
