@@ -11,6 +11,8 @@ Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminez
 ## Leia antes de começar
 | Etapa | Guia |
 |---|---|
+| Ideia (sempre o 1º passo) | `guia/00-ideias.md` |
+| Roteiro com tom/pausa + arquivo de cenas | `guia/09-roteiro-e-cenas.md` |
 | Entender o formato | `guia/01-o-canal.md` |
 | Roteiro | `guia/02-roteiro.md` (+ exemplos em `analises/roteiros/`) |
 | Imagem e montagem | `guia/03-edicao-visual.md` |
@@ -32,11 +34,16 @@ Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminez
 9. Thumb: 1-3 palavras em fonte grossa branca com volume 3D + 1 imagem de escala; 3 versões para teste A/B.
 10. Não copiar a obra dele (skin, Steve Bo, "Anomalias do Minecraft", roteiros). Não usar a trilha oficial do Minecraft (Content ID).
 
-## Fluxo com o MCP
-1. Roteiro → `planos.md` (nº, frase, tipo de imagem, cenário/comandos, câmera, texto, som).
-2. Para cada plano de jogo: montar a cena pelo MCP (`command_execute` com /tp, /time, /weather, /gamerule, /place structure, /summon, WorldEdit) e mandar o print (`view_capture`) para o usuário aprovar.
-3. O usuário grava no Flashback (o MCP não grava vídeo) e exporta em `cenas/NNN.mp4`.
-4. Estúdio 3D/espaço no Blender; montagem, textos e som conforme os guias.
+## Divisão do trabalho (pedido do usuário, 12/11/2026)
+O usuário só **escolhe a ideia, grava e edita a própria voz**. O Claude faz todo o resto, guiado pelo tempo da fala.
+
+1. **Ideia primeiro** (`guia/00-ideias.md`): proponha 5-10 ideias com a nota do filtro (precisa de 8/10), título, thumb em 3 palavras, escada de degraus e virada. Não refaça temas do TheLuics. Ele escolhe.
+2. **Fatos**: confira cada número na Minecraft Wiki → `videos/NN_tema/fatos.md`.
+3. **`roteiro.md`**: só a fala. Cada frase = `F001 [tom · velocidade] texto` + `[pausa N s]` ou `[pausa de cena N s]`. Dicionários de tom e pausa no `guia/09-roteiro-e-cenas.md`. Nada de câmera ou NPC no roteiro.
+4. **`cenas.md`** (arquivo separado): ficha por cena ligada aos Fs — tipo, mundo, local, cenário (comandos), elenco (mannequin = personagem; villagers/mobs), ações com tempo relativo à frase, expressões (pose, cabeça, partícula, som), câmera (de → para, movimento, duração), texto na tela, som. Formato e dicionários no guia 09.
+5. **Voz pronta** (`voz.wav`): rode `python -X utf8 ferramentas/alinhar_voz.py videos/NN_tema/roteiro.md videos/NN_tema/voz.wav` → `tempos.json`. Frase "CONFERIR" = ouça e acerte à mão. Estique as pausas de cena até o valor do roteiro.
+6. **Cenas no jogo**: segundos → ticks; escreva um datapack (`saves/<mundo>/datapacks/cenas/`) com cenário, elenco, ações e rig de câmera (`text_display` com `teleport_duration` + `/ride`) agendados com `/schedule`; `/reload`. Pelo MCP: montar → `view_capture` para conferir → OBS grava (WebSocket 4455) → `/function cenas:cNNN` → parar. O movimento roda no datapack (limite do MCP: 60 pedidos/min). Rig tremido → plano B: Flashback manual, e avise o usuário.
+7. **Montagem** nos tempos da voz (guias 03 e 05), thumbs A/B/C, título, descrição, 2 Shorts. O usuário aprova antes de subir.
 
 Se o MCP não estiver instalado, mostre o passo de instalação do guia 06 e pare para o usuário instalar o Minecraft/mods (é download e instalação de programa: peça confirmação).
 

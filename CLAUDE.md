@@ -2,7 +2,10 @@
 
 Este repositório guarda o método para fazer vídeos de documentário de Minecraft no estilo TheLuics.
 
-- Antes de criar qualquer vídeo, leia `guia/02-roteiro.md`, `guia/03-edicao-visual.md`, `guia/05-som-e-musica.md` e `guia/08-fluxo-de-producao.md`.
+- Antes de criar qualquer vídeo, leia `guia/00-ideias.md`, `guia/02-roteiro.md`, `guia/08-fluxo-de-producao.md` e `guia/09-roteiro-e-cenas.md` (e os guias 03 e 05 na montagem).
+- O usuário só escolhe a ideia e grava/edita a própria voz. O Claude faz o resto, nos tempos da fala (`ferramentas/alinhar_voz.py`).
+- A ideia vem primeiro e precisa de nota 8/10 no filtro do guia 00.
+- `roteiro.md` = só fala, com tom e pausa por frase. Câmera, NPCs e expressões vão só no `cenas.md`.
 - Para cenas do jogo use o MCP do Minecraft (guia 06). O MCP monta a cena e tira print; quem grava a câmera é o Flashback (manual).
 - Não copie o TheLuics: nada de skin, personagens (Steve Bo), nome de série ("Anomalias do Minecraft"), roteiros ou thumbnails dele. Copie o método, não a obra.
 - Não use a trilha oficial do Minecraft (C418/Lena Raine): tem Content ID.

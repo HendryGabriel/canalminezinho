@@ -1,57 +1,46 @@
-# Fluxo de produção de 1 vídeo (do zero ao upload)
+# Fluxo de produção de 1 vídeo
 
-Ordem de trabalho para fazer um vídeo no estilo TheLuics com o Claude Code + MCP do Minecraft.
-Cada vídeo fica numa pasta `videos/NN_tema/`.
+Divisão do trabalho:
+- **Você:** aprova a ideia, grava e edita a sua voz.
+- **Claude:** todo o resto, guiado pelo tempo da sua fala.
+
+Cada vídeo fica em `videos/NN_tema/` (o áudio e os vídeos não sobem para o GitHub, por causa do `.gitignore`).
 
 ## 0. Ferramentas (instalar 1 vez)
-- Minecraft Java 1.21.11 Fabric + mods e MCP (guia 06).
-- Blender (para estúdio 3D e espaço) + Mineways (exporta construção do jogo para o Blender).
-- DaVinci Resolve (montagem) ou ffmpeg + Remotion (montagem por script, já usado no canal Zé Cinza).
-- Narração: voz real (como o TheLuics) ou voz de IA (AI Studio, já usada no Zé Cinza; marcar "conteúdo sintético = Sim" no Studio).
-- Trilha livre (YouTube Audio Library / Epidemic) e sons do jogo (guia 05).
+- Minecraft Java 1.21.11 Fabric + mods + MCP do Minecraft (guia 06).
+- OBS Studio (já instalado neste PC) com o WebSocket ligado: Ferramentas → Configurações do servidor WebSocket → Ativar, porta 4455.
+- Blender (para estúdio 3D e espaço; ainda não instalado).
+- Trilha livre e sons do jogo (guia 05).
 
-## 1. Ideia (30 min)
-- Pergunta sobre **o jogo inteiro** que todo jogador já se fez (tamanho, limite, "e se", "é possível").
-- Teste: cabe numa pergunta de até 7 palavras com "MINECRAFT"? Tem uma escala que cresce? Tem um final emocional?
-- Pesquise os fatos na Minecraft Wiki (minecraft.wiki). Anote cada número com a fonte em `fatos.md`.
+## 1. Ideia — Claude propõe, você escolhe
+- O Claude traz 5 a 10 ideias com a nota do filtro (guia 00), o título, a thumb em 3 palavras, a escada de degraus e a virada.
+- Você escolhe 1. Só ideia com nota 8 ou mais.
+- O Claude confere os números na Minecraft Wiki e salva em `fatos.md` (cada número com o link).
 
-## 2. Roteiro (guia 02)
-- `roteiro.md` com o molde de % do tempo, 130-145 palavras/min.
-- Marque no texto: `[PAUSA 15 s]`, `[TEXTO: 10.000 m]`, `[SFX: boom]`, `[MÚSICA: épica]`, `[ESQUETE]`.
-- Rode o checklist do guia 02 §8.
+## 2. Roteiro e cenas — Claude escreve
+- `roteiro.md`: frases F001..., cada uma com tom e pausa (guia 09 §1). Molde e checklist no guia 02.
+- `cenas.md`: uma ficha por cena com cenário, elenco, ações, expressões e câmera (guia 09 §3).
+- Você lê o roteiro e pede ajustes. As cenas você não precisa ler.
 
-## 3. Lista de planos (o Claude faz)
-`planos.md`, 1 linha por frase/plano:
-| nº | tempo | frase | tipo (cinematic / estúdio / vazio / espaço / mapa / esquete) | cenário e comandos | câmera | texto | som |
+## 3. Voz — você
+- Grava lendo o `roteiro.md`, edita (corta erro e respiro, limpa ruído) e salva `voz.wav` na pasta do vídeo.
+- Nas `[pausa de cena N s]` deixe só 2 s: o Claude estica.
+- Avise: "voz pronta do vídeo NN".
 
-## 4. Gravar as cenas do jogo (MCP + Flashback)
-1. Abrir a instância Fabric, mundo de gravação, F3+P.
-2. O Claude monta cada cenário pelo MCP e manda o print. Você aprova.
-3. Você grava no Flashback (F1), monta a câmera em keyframes e exporta `cenas/NNN.mp4` (1440p 60 fps).
+## 4. O resto — Claude, automático
+1. `ferramentas/alinhar_voz.py` → `tempos.json` (início e fim de cada frase). Frase marcada "CONFERIR" = o Claude ouve e acerta à mão.
+2. Ajusta a duração de cada cena aos tempos da sua fala.
+3. Gera o datapack das cenas (cenário, elenco, ações e câmera em ticks).
+4. Para cada cena: monta pelo MCP → print para conferir → OBS grava → `/function` da cena → para.
+5. Estúdio 3D e espaço no Blender.
+6. Monta o vídeo nos tempos da voz: planos de 2–4 s, textos pop, contadores, efeito em toda revelação, música por bloco que sobe nas pausas, master -14 LUFS (guias 03 e 05).
+7. Faz 3 thumbs (A/B/C), título, descrição com capítulos e 2 Shorts (guias 04 e 07).
+8. Você assiste e aprova. Depois sobe no YouTube.
 
-## 5. Estúdio 3D e espaço (Blender)
-- Exportar a construção com Mineways → Blender → fundo cinza com grade, luz suave, câmera em órbita → `cenas/NNN.mp4`.
-- Planetas de blocos, mapa como cubo, multidões de personagens: Blender.
+## Onde pode precisar de você
+- Cena com câmera tremida no rig por comando → gravar aquela cena no Flashback (manual).
+- Erro do MCP ou do jogo que trava → reabrir o jogo.
+- Frase marcada "CONFERIR" que o Claude não consiga resolver.
 
-## 6. Narração
-- Gravar ou gerar por blocos. Cortar respiros nas partes rápidas; manter as pausas do roteiro.
-
-## 7. Montagem (guia 03)
-- Plano a plano seguindo `planos.md`. 2-4 s por plano; 10-20 s nas pausas.
-- Textos pop/digitando, contadores, réguas (Remotion ou Fusion).
-
-## 8. Som (guia 05)
-- 3 trilhas: voz, música, efeitos. Efeito em todo texto e revelação. Música muda com a emoção, abaixa na fala, sobe nas pausas.
-- Master -14 LUFS, pico -1 dB.
-
-## 9. Thumbnail e título (guia 04)
-- 3 thumbs (A/B/C) com 1-3 palavras em fonte grossa 3D branca + 1 imagem de escala. Testar e comparar no YouTube.
-
-## 10. Upload
-- Título em CAIXA ALTA com MINECRAFT; descrição de 2-3 frases + capítulos + apoio; hashtags `#minecraft #minecraftjava #mcpe` (+ da série).
-- Tags só do assunto.
-- Ligar a dublagem automática (o canal dele ganha audiência em inglês assim).
-- Fazer 2 Shorts do mesmo tema (guia 07).
-
-## Tempo esperado
-O TheLuics posta 1 longo a cada 1-2 meses (produção pesada de 3D). Comece com 1 vídeo de **escala/ranking** (o mais simples: estruturas do jogo, `/place structure`, estúdio 3D, contas) antes de tentar esquetes animadas.
+## Começo recomendado
+O 1º vídeo deve ser de **medir** ou **ranking** (guia 00): estruturas e blocos do jogo, poucos personagens, câmera simples. Esquetes com muitos NPCs ficam para depois que o rig de câmera e o OBS estiverem testados.
