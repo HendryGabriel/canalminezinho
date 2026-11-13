@@ -63,6 +63,7 @@ Conferência: `info.py brutos/<pasta>` (duração + eventos) e `folha.py saida.j
 ## 4. Voz e alinhamento
 - Um lote de TTS para os 3 vídeos (gasta 1 geração): separe os textos com `<break time="2s"/>` e corte o áudio nos silêncios. Voz usada: "Davi Andrei" (DarkPlanner). Gemini TTS também serve (guia 13). Voz de IA → marcar "conteúdo sintético" no YouTube.
 - Whisper com tempo por palavra → `alinhar.py` casa com o texto do roteiro → `pal_<video>.json` = `[[ini, fim, "palavra"], …]` (a legenda usa o texto do roteiro, não o que o Whisper ouviu).
+- **Depois, sempre:** `ajustar_tempos.py narracao.wav pal.json pal_aj.json`. O Whisper marca a palavra seguinte a uma pausa 0,1–0,3 s antes de a fala voltar, e a legenda fica adiantada (12–16 vezes por vídeo de 60 s). O script detecta os silêncios (`silencedetect` −32 dB, 0,08 s) e empurra a palavra para o fim do silêncio. Use o `pal_aj.json` no planejar e no legendas.
 
 ## 5. Montagem por plano (`planejar.py` → `legendas.py` → `montar.py`)
 O plano (`planos/*.json`) diz, por frase do roteiro, quais trechos de tomada entram:

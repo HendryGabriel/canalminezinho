@@ -12,6 +12,7 @@ Regra: 1 linha por aprendizado, com data e vídeo. O que virou regra fixa sobe p
 | 2026-11-13 | shorts farms v4 | Protagonista sem 2º jogador: mannequin com `profile:{texture:"entity/player/wide/steve"}`; andar aplicando Motion por tick anima as pernas. | guia 15 §2 |
 | 2026-11-13 | shorts farms v4 | `kill @e[type=copper_golem]` deixa golens sobrando/duplicados; mandar para baixo do mundo com `tp ... ~ -80 ~`. | guia 15 §2 |
 | 2026-11-13 | shorts farms v4 | Parede de 32 blocos em 9:16 só cabe com a câmera a ~42 blocos; fundo claro para os pixels escuros aparecerem. | guia 15 §2 |
+| 2026-11-13 | shorts farms v4 | Legenda fora de sincronia nos 3 v4: o Whisper adianta 0,1–0,3 s a palavra depois de cada pausa. Corrigido com `ajustar_tempos.py` (silencedetect). | guia 15 §4 |
 | 2026-11-13 | shorts farms v4 | Cena de raio/noite muda o mundo: voltar `weather clear`, `time set` e `tick rate 20` antes da próxima tomada. | guia 15 §2 |
 
 

@@ -30,6 +30,7 @@ A ponte lê URL e token de `~/.mcpfabric/bridge.json` (nunca imprime o token).
 | `info.py` | lê as tomadas de uma pasta → `info.json` (duração, eventos em s) |
 | `folha.py` | folha de contato de várias tomadas (`folha.py saida.jpg 1 brutos/x/a brutos/x/b`) |
 | `alinhar.py` | casa as palavras do Whisper com o texto do roteiro |
+| `ajustar_tempos.py` | corrige os tempos pela forma de onda: o Whisper adianta 0,1–0,3 s a palavra depois de cada pausa (legenda fora de sincronia). **Rodar sempre depois do alinhar** |
 | `planejar.py` | plano por frase + tempos → `receita.json` + `extras.json` (rótulos, números) |
 | `legendas.py` | legenda ASS pixelada (palavra falada em amarelo, rótulos, números) |
 | `montar.py` | receita → MP4 final (velocidade por trecho, trilha com ducking, loudnorm −14) |
