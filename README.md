@@ -31,17 +31,19 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [guia/12-novelinha.md](guia/12-novelinha.md) | Formato 2 (Machinima): novelinha e histórias, itens da vida real, câmera de novela automática |
 | [guia/13-vozes.md](guia/13-vozes.md) | Voz: gravar você mesmo ou TTS do Gemini (voz fixa por personagem) |
 | [guia/14-estudo-reel-luta.md](guia/14-estudo-reel-luta.md) | Estudo quadro a quadro de um reel de luta estilo anime: cortes, quadros de impacto, efeitos e como fazer com personagens próprios |
+| [guia/15-shorts-farm-com-historia.md](guia/15-shorts-farm-com-historia.md) | Short de farm com história (~60 s): protagonista com problema real do jogo, farm gravada no jogo pela ponte MCP, câmera cinematográfica, montagem por JSON |
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
 ## Pronto para usar
 | O quê | Onde |
 |---|---|
 | Modelos para preencher (projeto, ideia, fatos, personagens, roteiro, cenas, publicação) | `modelos/` |
-| Exemplos completos: documentário "Quanto vale um mundo do Minecraft?", machinima EP. 1 "Salvamos a pastelaria da Vó", animação kids "A Vovó ficou pequenininha!?" | `exemplos/` |
+| Exemplos completos: documentário "Quanto vale um mundo do Minecraft?", machinima EP. 1 "Salvamos a pastelaria da Vó", animação kids "A Vovó ficou pequenininha!?", 3 shorts de farm com história (mel, lã, alga) | `exemplos/` |
 | Checklists de cada etapa (ideia → publicação → resultado) | `checklists.md` |
 | Registro do que funciona e do que quebra (o Claude lê no começo e escreve no fim) | `aprendizados.md` |
 | Música, sons, rigs, skins, mapas e fontes com licença conferida + modelo de créditos | `biblioteca/` |
 | Scripts testados: voz → tempos, montagem automática com efeitos e −14 LUFS, lip sync, thumbs | `ferramentas/alinhar_voz.py`, `ferramentas/edicao/` |
+| Pipeline de shorts gravados no jogo: gravação da janela + áudio do jogo, câmera por spline, protagonista mannequin, plano → legenda pixelada → MP4 | `ferramentas/shorts-farm/` |
 | Blender por script: 4 looks, 11 efeitos, montar e renderizar planos | `ferramentas/blender/` |
 | Jogo: datapack de cena (câmera + ações no tempo) e gravação do OBS | `ferramentas/minecraft/` (ainda sem teste no jogo) |
 

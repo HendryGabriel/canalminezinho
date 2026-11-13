@@ -1,0 +1,356 @@
+{
+ "brutos": "brutos",
+ "trilha": "audio/mixkit_15.mp3",
+ "narracao": "audio/v4/la.wav",
+ "saida": "final/v4_la.mp4",
+ "narr_delay": 0.3,
+ "cauda": 1.6,
+ "batidas": [
+  {
+   "frases": [
+    0,
+    1
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s1_parede",
+     "a": 0.3,
+     "b": 6.6
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "1000",
+     "palavra": "mil",
+     "dur": 1.4,
+     "n": 1
+    },
+    {
+     "texto": "16",
+     "palavra": "dezesseis",
+     "dur": 1.2,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    2
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s2_tosa",
+     "a": 0.1,
+     "b": 5.4
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "40",
+     "palavra": "quarenta",
+     "dur": 1.3,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    3
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s3_sem_marrom",
+     "a": 0.3,
+     "b": 1.6
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "960",
+     "palavra": "novecentas",
+     "dur": 1.3,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    4
+   ],
+   "segs": [
+    {
+     "take": "la/l01_come",
+     "a": 1.6,
+     "b": 38.6,
+     "w": 1
+    },
+    {
+     "take": "la/l01_come",
+     "a": 38.6,
+     "b": 40.7,
+     "vel": 1.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    5
+   ],
+   "segs": [
+    {
+     "take": "la/l01_come",
+     "a": 40.7,
+     "b": 43.4
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "GRAMA → TERRA",
+     "cor": "vermelho",
+     "de": 0.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    6
+   ],
+   "segs": [
+    {
+     "take": "la/l03_tosa",
+     "a": 1.5,
+     "b": 9.5
+    }
+   ]
+  },
+  {
+   "frases": [
+    7
+   ],
+   "segs": [
+    {
+     "take": "la/l02_maquina",
+     "a": 1.4,
+     "b": 9.7
+    }
+   ]
+  },
+  {
+   "frases": [
+    8
+   ],
+   "segs": [
+    {
+     "take": "la/l03_tosa",
+     "a": 10.0,
+     "b": 11.5,
+     "vel": 1.0
+    },
+    {
+     "take": "la/l04_la_presa",
+     "a": 2.0,
+     "b": 4.6
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "LÃ PRESA",
+     "cor": "vermelho",
+     "de": 0.5
+    }
+   ]
+  },
+  {
+   "frases": [
+    9
+   ],
+   "segs": [
+    {
+     "take": "la/l05_carrinho",
+     "a": 1.4,
+     "b": 5.4
+    }
+   ]
+  },
+  {
+   "frases": [
+    10
+   ],
+   "segs": [
+    {
+     "take": "la/l05_carrinho",
+     "a": 5.3,
+     "b": 9.8
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "+1 LÃ NO BAÚ",
+     "cor": "verde",
+     "de": 0.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    11
+   ],
+   "segs": [
+    {
+     "take": "la/l06_terra",
+     "a": 1.3,
+     "b": 4.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    12
+   ],
+   "segs": [
+    {
+     "take": "la/l06_terra",
+     "a": 4.0,
+     "b": 7.0
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "TERRA = FOME",
+     "cor": "vermelho",
+     "de": 0.2
+    }
+   ]
+  },
+  {
+   "frases": [
+    13
+   ],
+   "segs": [
+    {
+     "take": "la/l07_grama",
+     "a": 1.4,
+     "b": 12.6
+    }
+   ]
+  },
+  {
+   "frases": [
+    14
+   ],
+   "segs": [
+    {
+     "take": "la/l09_escala",
+     "a": 1.0,
+     "b": 12.9
+    }
+   ]
+  },
+  {
+   "frases": [
+    15
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s3_sem_marrom",
+     "a": 1.6,
+     "b": 7.2
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "FALTOU O MARROM",
+     "cor": "vermelho",
+     "de": 0.25
+    }
+   ]
+  },
+  {
+   "frases": [
+    16
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s4_cacau",
+     "a": 0.0,
+     "b": 3.7
+    }
+   ]
+  },
+  {
+   "frases": [
+    17
+   ],
+   "segs": [
+    {
+     "take": "la/l10_orbita",
+     "a": 1.0,
+     "b": 6.5
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "16",
+     "palavra": "dezesseis",
+     "dur": 1.0,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    18
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s5_completa",
+     "a": 0.4,
+     "b": 6.2
+    }
+   ]
+  },
+  {
+   "frases": [
+    19
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s6_raio",
+     "a": 0.4,
+     "b": 4.8
+    }
+   ]
+  },
+  {
+   "frases": [
+    20
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s7_fogo",
+     "a": 0.4,
+     "b": 5.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    21
+   ],
+   "segs": [
+    {
+     "take": "hist/L_s7_fogo",
+     "a": 5.0,
+     "b": 9.7,
+     "w": 1
+    },
+    {
+     "take": "hist/L_s8_sai",
+     "a": 0.4,
+     "b": 5.2,
+     "w": 1.3
+    }
+   ]
+  }
+ ]
+}

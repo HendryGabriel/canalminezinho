@@ -8,6 +8,12 @@ Regra: 1 linha por aprendizado, com data e vídeo. O que virou regra fixa sobe p
 |---|---|---|---|
 | 2026-11-12 | — | Gemini pode errar "como é feito" (disse animação 3D num vídeo gravado no jogo): conferir sempre nos quadros. | guia 12 §0 |
 | 2026-11-12 | — | O navegador bloqueia o áudio de vídeo sem clique real: para estudar som, baixar o vídeo (com o OK do usuário). | guia 14 |
+| 2026-11-12 | shorts farms (mel/lã/alga) | João aprovou a edição (câmera, fonte pixelada, rótulos, números), mas rejeitou o roteiro de tutorial puro: quer storytelling com protagonista que tem um motivo, problema que justifica cada peça da farm e plot twist (referência: Zack D. Films). | guia 15 §1 |
+| 2026-11-13 | shorts farms v4 | Protagonista sem 2º jogador: mannequin com `profile:{texture:"entity/player/wide/steve"}`; andar aplicando Motion por tick anima as pernas. | guia 15 §2 |
+| 2026-11-13 | shorts farms v4 | `kill @e[type=copper_golem]` deixa golens sobrando/duplicados; mandar para baixo do mundo com `tp ... ~ -80 ~`. | guia 15 §2 |
+| 2026-11-13 | shorts farms v4 | Parede de 32 blocos em 9:16 só cabe com a câmera a ~42 blocos; fundo claro para os pixels escuros aparecerem. | guia 15 §2 |
+| 2026-11-13 | shorts farms v4 | Cena de raio/noite muda o mundo: voltar `weather clear`, `time set` e `tick rate 20` antes da próxima tomada. | guia 15 §2 |
+
 
 ## Resultado no YouTube
 | Data | Vídeo | Views 48 h | Views 7 d | Retenção média | CTR | Thumb vencedora | O que mudar |

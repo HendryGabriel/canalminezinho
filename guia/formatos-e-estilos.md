@@ -25,6 +25,7 @@ Shorts saem de qualquer formato (guia 07).
 | "É possível...?" (desafio total) | "É possível morrer de velhice no Minecraft?" |
 | Ranking (do menor ao maior) | "Qual o lugar mais perigoso do Minecraft?" |
 | Mistério / anomalia do jogo | "O bloco que nunca deveria existir" |
+| Short de farm com história (~60 s, guia 15) | "Os golens pararam" — a farm de mel que salva os golens de cobre |
 
 ### 2 — Machinima
 | Estilo | Clima | Música e luz |

@@ -1,0 +1,322 @@
+{
+ "brutos": "brutos",
+ "trilha": "audio/mixkit_1072.mp3",
+ "narracao": "audio/v4/mel.wav",
+ "saida": "final/v4_mel.mp4",
+ "narr_delay": 0.3,
+ "cauda": 1.6,
+ "batidas": [
+  {
+   "frases": [
+    0
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s1_deposito",
+     "a": 0.5,
+     "b": 8.5
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "6",
+     "palavra": "seis",
+     "dur": 1.3,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    1
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s5_golens",
+     "a": 0.5,
+     "b": 4.2
+    }
+   ]
+  },
+  {
+   "frases": [
+    2
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s2_caos",
+     "a": 0.4,
+     "b": 4.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    3
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s2_caos",
+     "a": 4.0,
+     "b": 7.6
+    }
+   ]
+  },
+  {
+   "frases": [
+    4,
+    5
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s3_oxida",
+     "a": 0.5,
+     "b": 6.6
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "OXIDOU = VIROU ESTÁTUA",
+     "cor": "vermelho",
+     "de": 0.45
+    }
+   ]
+  },
+  {
+   "frases": [
+    6
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s4_raspa",
+     "a": 0.4,
+     "b": 6.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    7
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s5_golens",
+     "a": 4.2,
+     "b": 7.6
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "VAI OXIDAR DE NOVO",
+     "cor": "vermelho",
+     "de": 0.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    8,
+    9
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s7_abelhas",
+     "a": 0.0,
+     "b": 5.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    10
+   ],
+   "segs": [
+    {
+     "take": "mel/m01_colmeia",
+     "a": 1.6,
+     "b": 7.5
+    }
+   ]
+  },
+  {
+   "frases": [
+    11
+   ],
+   "segs": [
+    {
+     "take": "mel/m04_comparador",
+     "a": 1.6,
+     "b": 16.0
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "5",
+     "palavra": "cinco",
+     "dur": 1.3,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    12
+   ],
+   "segs": [
+    {
+     "take": "mel/m06_contagem",
+     "a": 62.2,
+     "b": 69.0
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "SINAL 4: NÃO CHEGA",
+     "cor": "vermelho",
+     "de": 0.45
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "4",
+     "palavra": "quatro",
+     "dur": 1.3,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    13
+   ],
+   "segs": [
+    {
+     "take": "mel/m05_ejetor",
+     "a": 1.5,
+     "b": 6.5
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "5",
+     "palavra": "cinco",
+     "dur": 1.1,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    14
+   ],
+   "segs": [
+    {
+     "take": "mel/m02_semflor",
+     "a": 1.3,
+     "b": 6.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    15
+   ],
+   "segs": [
+    {
+     "take": "mel/m02_semflor",
+     "a": 6.0,
+     "b": 9.8
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "SEM FLOR = SEM MEL",
+     "cor": "vermelho",
+     "de": 0.05
+    }
+   ]
+  },
+  {
+   "frases": [
+    16
+   ],
+   "segs": [
+    {
+     "take": "mel/m03_flores",
+     "a": 1.5,
+     "b": 10.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    17
+   ],
+   "segs": [
+    {
+     "take": "mel/m06_contagem",
+     "a": 1.6,
+     "b": 131.9,
+     "w": 1
+    },
+    {
+     "take": "mel/m06_contagem",
+     "a": 131.9,
+     "b": 134.4,
+     "vel": 1.0
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "SOME EM 5 MIN",
+     "cor": "vermelho",
+     "de": 0.6
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "+3",
+     "palavra": "três",
+     "dur": 1.3,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    18
+   ],
+   "segs": [
+    {
+     "take": "hist/M_funil26",
+     "a": 1.2,
+     "b": 5.6
+    }
+   ]
+  },
+  {
+   "frases": [
+    19
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s9_cera",
+     "a": 0.3,
+     "b": 4.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    20
+   ],
+   "segs": [
+    {
+     "take": "hist/M_s10_final",
+     "a": 0.4,
+     "b": 9.6
+    }
+   ]
+  }
+ ]
+}

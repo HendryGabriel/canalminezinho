@@ -1,0 +1,402 @@
+{
+ "brutos": "brutos",
+ "trilha": "audio/mixkit_506.mp3",
+ "narracao": "audio/v4/alga.wav",
+ "saida": "final/v4_alga.mp4",
+ "narr_delay": 0.3,
+ "cauda": 1.6,
+ "batidas": [
+  {
+   "frases": [
+    0,
+    1
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s1_estufa",
+     "a": 0.2,
+     "b": 5.6
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "2000",
+     "palavra": "mil",
+     "dur": 1.3,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    2,
+    3
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s2_fornalha",
+     "a": 0.4,
+     "b": 5.9
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "8",
+     "palavra": "oito",
+     "dur": 1.0,
+     "n": 1
+    },
+    {
+     "texto": "250",
+     "palavra": "duzentos",
+     "dur": 1.3,
+     "n": 1
+    },
+    {
+     "texto": "12",
+     "palavra": "doze",
+     "dur": 1.0,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    4
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s3_mina",
+     "a": 0.2,
+     "b": 5.0
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "20",
+     "palavra": "vinte",
+     "dur": 1.0,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    5
+   ],
+   "segs": [
+    {
+     "take": "alga/a10_close",
+     "a": 1.4,
+     "b": 7.0
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "20",
+     "palavra": "vinte",
+     "dur": 1.2,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    6
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s4_lagoa",
+     "a": 0.3,
+     "b": 6.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    7
+   ],
+   "segs": [
+    {
+     "take": "alga/a01_coluna",
+     "a": 13.0,
+     "b": 21.5
+    }
+   ]
+  },
+  {
+   "frases": [
+    8
+   ],
+   "segs": [
+    {
+     "take": "alga/a03_corte",
+     "a": 1.5,
+     "b": 16.5
+    }
+   ]
+  },
+  {
+   "frases": [
+    9
+   ],
+   "segs": [
+    {
+     "take": "alga/a04_presa",
+     "a": 1.2,
+     "b": 7.0
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "PRESA NO TOPO",
+     "cor": "vermelho",
+     "de": 0.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    10
+   ],
+   "segs": [
+    {
+     "take": "alga/a05_corrente",
+     "a": 1.4,
+     "b": 9.6
+    }
+   ]
+  },
+  {
+   "frases": [
+    11
+   ],
+   "segs": [
+    {
+     "take": "alga/a05_corrente",
+     "a": 9.6,
+     "b": 12.0
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "ALGA CRUA NÃO QUEIMA",
+     "cor": "vermelho",
+     "de": 0.1
+    }
+   ]
+  },
+  {
+   "frases": [
+    12
+   ],
+   "segs": [
+    {
+     "take": "alga/a06_defumador",
+     "a": 1.75,
+     "b": 11.6
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "5s",
+     "palavra": "cinco",
+     "dur": 1.2,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    13
+   ],
+   "segs": [
+    {
+     "take": "alga/a07_crafter",
+     "a": 1.6,
+     "b": 4.7
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "9",
+     "palavra": "nove",
+     "dur": 1.1,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    14
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s5_noite",
+     "a": 0.1,
+     "b": 3.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    15
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s5_noite",
+     "a": 3.3,
+     "b": 5.3
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "0 BLOCOS",
+     "cor": "vermelho",
+     "de": 0.3
+    }
+   ]
+  },
+  {
+   "frases": [
+    16
+   ],
+   "segs": [
+    {
+     "take": "alga/a08_bloco",
+     "a": 1.7,
+     "b": 9.5
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "NO TESTE: DISPAROU COM 3 E TRAVOU",
+     "cor": "vermelho",
+     "de": 0.1
+    }
+   ]
+  },
+  {
+   "frases": [
+    17
+   ],
+   "segs": [
+    {
+     "take": "alga/a07_crafter",
+     "a": 4.6,
+     "b": 19.2
+    }
+   ]
+  },
+  {
+   "frases": [
+    18
+   ],
+   "segs": [
+    {
+     "take": "alga/a08_bloco",
+     "a": 31.0,
+     "b": 40.6
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "8",
+     "palavra": "oito",
+     "dur": 1.2,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    19
+   ],
+   "segs": [
+    {
+     "take": "alga/a08_bloco",
+     "a": 40.3,
+     "b": 43.8,
+     "vel": 1.0
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "+1 BLOCO",
+     "cor": "verde",
+     "de": 0.55
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "9",
+     "palavra": "nove",
+     "dur": 1.1,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    20
+   ],
+   "segs": [
+    {
+     "take": "alga/a10_close",
+     "a": 1.4,
+     "b": 7.0
+    }
+   ],
+   "numeros": [
+    {
+     "texto": "20",
+     "palavra": "vinte",
+     "dur": 1.1,
+     "n": 1
+    },
+    {
+     "texto": "2",
+     "palavra": "dois",
+     "dur": 1.2,
+     "n": 1
+    }
+   ]
+  },
+  {
+   "frases": [
+    21
+   ],
+   "segs": [
+    {
+     "take": "alga/a09_orbita",
+     "a": 1.0,
+     "b": 6.0
+    }
+   ]
+  },
+  {
+   "frases": [
+    22
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s7_estufa_pronta",
+     "a": 0.2,
+     "b": 4.5
+    }
+   ]
+  },
+  {
+   "frases": [
+    23
+   ],
+   "segs": [
+    {
+     "take": "hist/A_s8_tochas",
+     "a": 0.3,
+     "b": 4.6
+    }
+   ]
+  }
+ ]
+}
