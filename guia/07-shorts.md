@@ -4,6 +4,7 @@ Base: lista dos 113 Shorts com views (`dados/shorts.csv`) + 3 Shorts baixados, m
 
 ## 0. Método principal: Short estilo DonJone (estudo de 13/11/2026)
 Canal brasileiro com 2,3 mi inscritos, 1.175 Shorts e **~1 mi de views por Short** (mediana). Estudo completo: `analises/shorts-donjone.md`.
+Shorts de farm com história e protagonista: ver também `guia/15-shorts-farm-com-historia.md` (pipeline `ferramentas/shorts-farm/`).
 
 ### Molde de 1 Short (50–60 s, ~200 palavras)
 | Tempo | O que acontece |
