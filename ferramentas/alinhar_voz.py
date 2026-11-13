@@ -96,7 +96,11 @@ if __name__ == '__main__':
     if sys.argv[1:] == ['--teste']:
         teste(); sys.exit()
     roteiro, audio = Path(sys.argv[1]), Path(sys.argv[2])
-    falas = alinhar(ler_roteiro(roteiro.read_text(encoding='utf8')), transcrever(audio))
+    palavras = transcrever(audio)
+    # tempo de cada palavra: serve para a legenda palavra por palavra dos Shorts (guia 07 §0)
+    roteiro.with_name('palavras.json').write_text(json.dumps(
+        [{'p': w, 'inicio': round(a, 2), 'fim': round(b, 2)} for w, a, b in palavras], ensure_ascii=False), encoding='utf8')
+    falas = alinhar(ler_roteiro(roteiro.read_text(encoding='utf8')), palavras)
     saida = roteiro.with_name('tempos.json')
     saida.write_text(json.dumps(falas, ensure_ascii=False, indent=1), encoding='utf8')
     for f in falas:

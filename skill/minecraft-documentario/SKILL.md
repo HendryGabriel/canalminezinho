@@ -25,7 +25,7 @@ Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminez
 | Thumb e título | `guia/04-thumbnails-e-titulos.md` |
 | Efeitos e música | `guia/05-som-e-musica.md` (+ `analises/gemini/`) |
 | MCP e gravação | `guia/06-minecraft-mcp-e-captura.md` |
-| Shorts | `guia/07-shorts.md` |
+| Shorts (método DonJone: afirmação forte, imagem por palavra, legenda 1–2 palavras, loop) | `guia/07-shorts.md` §0 + `analises/shorts-donjone.md` |
 | Passo a passo | `guia/08-fluxo-de-producao.md` |
 
 ## Regras que não mudam

@@ -23,7 +23,7 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [guia/04-thumbnails-e-titulos.md](guia/04-thumbnails-e-titulos.md) | Receita da thumb e fórmulas de título |
 | [guia/05-som-e-musica.md](guia/05-som-e-musica.md) | Efeitos sonoros, música, mixagem |
 | [guia/06-minecraft-mcp-e-captura.md](guia/06-minecraft-mcp-e-captura.md) | Qual MCP instalar, como, e como gravar as cenas |
-| [guia/07-shorts.md](guia/07-shorts.md) | Shorts |
+| [guia/07-shorts.md](guia/07-shorts.md) | Shorts: método DonJone (§0) — molde de 50–60 s, imagem por palavra, legenda, som, loop |
 | [guia/08-fluxo-de-producao.md](guia/08-fluxo-de-producao.md) | Passo a passo: você grava a voz, o Claude faz o resto |
 | [guia/09-roteiro-e-cenas.md](guia/09-roteiro-e-cenas.md) | Roteiro com tom e pausa + arquivo de cenas (câmera, NPCs, expressões) para o MCP |
 | [guia/10-machinima.md](guia/10-machinima.md) | Cenas de filme: 3 níveis, planos, regras de cinema, diálogo, lip sync, direitos |
@@ -48,6 +48,7 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | Jogo: datapack de cena (câmera + ações no tempo) e gravação do OBS | `ferramentas/minecraft/` (ainda sem teste no jogo) |
 
 ## Pastas
+- `analises/shorts-donjone.md` + `analises/gemini-donjone/` — estudo dos Shorts do DonJone (2,3 mi inscritos, ~1 mi de views por Short): roteiro, imagem por palavra, legenda, som, loop.
 - `analises/machinima/` — estudo de Aphmau, Maizen e Cash (machinima gringa) + síntese.
 - `analises/gemini-gringos/` — análise de edição, som e música dos 6 canais gringos (Gemini; conferir "como é feito" nos quadros).
 - `analises/animacao/` — estudo de Element Animation, Rainimator e Kamui Animation (animação 3D gringa) + síntese com o "look" no Blender.
