@@ -38,3 +38,11 @@ O Claude pode usar Blender (por script), ffmpeg, OBS, Minecraft + MCP, Python e 
 - Confira todo fato do jogo na Minecraft Wiki antes de narrar.
 - Voz de IA → marcar "conteúdo alterado/sintético = Sim" no YouTube Studio.
 - Repositório público: nunca suba vídeo, áudio, transcrição ou imagem de outros criadores, nem dados pessoais (e-mail, contas).
+
+## Personagem deitado (manequim) — regra fixa
+Use sempre `ferramentas/minecraft/deitado.py` (`deitado.cmds(cabeca_x, y, cabeca_z, 'leste', escala)`); não calcule na mão. Medido na 26.3:
+- `summon mannequin ... {pose:"sleeping"}`: a posição da entidade é a dos **pés**, não o centro. O corpo se estende ~1,8 × escala até o topo da cabeça.
+- Direção da cabeça pelo yaw: 0 → −x (oeste), 90 → +z (sul), 180 → +x (leste), 270 → −z (norte). Fica de barriga para cima.
+- Antes de gravar, confira numa foto que a cabeça e os pés estão dentro do espaço livre (cabeça a ~0,2 bloco da parede) e que o rosto aparece para a câmera. Câmera olhando para +z: o leste (+x) fica à **esquerda** da tela.
+- Luz do personagem = luz do bloco dos pés: nunca ponha bloco nessa célula (fica preto e sufoca). `Invulnerable:1b`, sem `/damage`.
+- Para parecer vivo: `tp @e[tag=...] x y z yaw 0` a cada 2 ticks **só em Y** (respiração, trancos). Mexer em X/Z gira o corpo para fora do lugar; recriar o manequim (`kill` + `summon`) a cada tomada.
