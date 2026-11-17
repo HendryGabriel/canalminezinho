@@ -6,3 +6,5 @@
 *.vtt
 cenas/
 render/
+
+__pycache__/

@@ -9,6 +9,7 @@ Passo 1: **formato + voz**. Passo 2: **estilo + tema** (as opções dependem do 
 | 1 | **Documentário** | curiosidade e ciência do jogo, narrador, escala, "e se", 15–30 min (estilo TheLuics) | Minecraft (MCP) + estúdio 3D no Blender | 00–09 |
 | 2 | **Machinima** | histórias entre personagens: novelinha, comédia, mistério; itens da vida real; câmera de novela | Minecraft (MCP + mods de personagens) | 12, 09, 10 |
 | 3 | **Animações complexas** | animação de cinema com personagens de Minecraft: luta, aventura, terror, comédia; efeitos (aura, raios, explosões, magia) | Blender (cenário do Minecraft via Mineways + MCprep) | 11, 10 |
+| 4 | **Desafio / Série (encenado)** | "Skyblock mas...", "100 dias", sobrevivência com regra; roteirizado e filmado por comando; você só narra | Minecraft (MCP + datapack) | 17, 09, 02 |
 
 Shorts saem de qualquer formato (guia 07).
 
@@ -51,6 +52,14 @@ Shorts saem de qualquer formato (guia 07).
 | Fantasia / magia | magos, feitiços, reinos | partículas mágicas, runas brilhando, portais |
 | Ficção científica | nave, robô, outro planeta | hologramas, lasers, espaço, metal brilhante |
 | Drama cinematográfico | emoção, perda, amizade | luz de cinema, câmera lenta, chuva, música de piano |
+
+### 4 — Desafio / Série (encenado)
+| Estilo | Exemplo de pergunta |
+|---|---|
+| Skyblock mas... | "Skyblock, mas um mob novo aparece todo dia" |
+| 100 dias (em partes) | "100 dias em hardcore: dias 1 a 10" |
+| Sobrevivência com história | "Como sobrevivi à escola SMP" (rival, segredo) |
+| Mundo para dormir (relaxante) | "Começando meu mundo para sempre" (vídeo longo, sem pressa) |
 
 Todos os estilos usam **personagens, nomes, poderes e histórias próprios** (sem copiar anime, filme ou canal).
 

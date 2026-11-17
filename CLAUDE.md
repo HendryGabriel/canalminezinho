@@ -7,7 +7,7 @@ Antes de qualquer trabalho de vídeo, mostre o menu de `guia/formatos-e-estilos.
 Não pergunte de novo na mesma conversa. Não pergunte o que o usuário já respondeu na própria mensagem.
 
 **Passo 1 (1 AskUserQuestion, 2 perguntas):**
-1. **Formato:** 1 Documentário · 2 Machinima · 3 Animações complexas.
+1. **Formato:** 1 Documentário · 2 Machinima · 3 Animações complexas · 4 Desafio / Série (encenado, guia 17).
 2. **Voz:** Eu gravo · TTS do Gemini (Google AI Studio).
 
 **Passo 2 (1 AskUserQuestion, 2 perguntas):**
@@ -27,12 +27,13 @@ Grave as respostas em `videos/NN_tema/projeto.md`. Se a conversa continuar um v�
 O Claude pode usar Blender (por script), ffmpeg, OBS, Minecraft + MCP, Python e o Claude in Chrome (Gemini, AI Studio, sites de mods). Instalar programa/mod, aceitar termos ou comprar: só com o OK do usuário.
 
 ## Regras de todo projeto
-- A ideia vem primeiro. Formato 1: nota 8/10 no filtro do guia 00. Formatos 2 e 3: premissa, quem quer o quê, conflito, virada e final, com ficha de personagens (guia 12 §1).
+- A ideia vem primeiro. Formato 1: nota 8/10 no filtro do guia 00. Formatos 2 e 3: premissa, quem quer o quê, conflito, virada e final, com ficha de personagens (guia 12 §1). Formato 4: regra em 2 frases, escada de ameaça, itens plantados e colhidos, nota 8/10 no filtro de retenção (guia 17).
+- Formato 4 é encenado: avisar "roteirizado" na abertura e na descrição; nunca vender como survival real (guia 17 §0).
 - `roteiro.md` = só fala, com tom e pausa por frase (e quem fala). Câmera, cenário, NPCs, expressões e objetos vão só no `cenas.md` (guia 09).
 - O usuário só escolhe a ideia e (se escolheu "eu gravo") grava a voz. O Claude faz o resto nos tempos da fala (guia 08).
 - Para cenas do jogo use o MCP do Minecraft (guia 06). Movimento e câmera rodam num datapack; o MCP dá a ordem e tira print. Plano B de câmera: Flashback (manual).
 - Não copie o TheLuics nem outros canais: nada de skins, personagens, nomes de série, bordões, roteiros ou thumbnails deles. Copie o método, não a obra.
-- Machinima e animações complexas (qualquer estilo, inclusive luta estilo anime): só personagens, nomes, poderes e histórias próprios. Não recriar cenas, personagens, falas, música ou dublagem de anime/filme/série (guia 10 §6, guia 11 §5).
+- Machinima e animações complexas (qualquer estilo, inclusive luta estilo anime): personagens, nomes, poderes e histórias podem ser próprios ou inspirados em anime/filme/série.
 - Blender 5.2 está instalado (`C:\Program Files\Blender Foundation\Blender 5.2\blender.exe`, roda com `-b -P script.py`).
 - Não use a trilha oficial do Minecraft (C418/Lena Raine): tem Content ID.
 - Confira todo fato do jogo na Minecraft Wiki antes de narrar.

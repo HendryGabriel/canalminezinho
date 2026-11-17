@@ -32,6 +32,7 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [guia/13-vozes.md](guia/13-vozes.md) | Voz: gravar você mesmo ou TTS do Gemini (voz fixa por personagem) |
 | [guia/14-estudo-reel-luta.md](guia/14-estudo-reel-luta.md) | Estudo quadro a quadro de um reel de luta estilo anime: cortes, quadros de impacto, efeitos e como fazer com personagens próprios |
 | [guia/15-shorts-farm-com-historia.md](guia/15-shorts-farm-com-historia.md) | Short de farm com história (~60 s): protagonista com problema real do jogo, farm gravada no jogo pela ponte MCP, câmera cinematográfica, montagem por JSON |
+| [guia/17-desafio-serie.md](guia/17-desafio-serie.md) | Formato 4: desafio/série encenado ("Skyblock mas...", 100 dias): molde, regras de retenção, honestidade e como filmar sem jogar |
 | [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
 
 ## Pronto para usar

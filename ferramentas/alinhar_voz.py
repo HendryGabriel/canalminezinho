@@ -68,7 +68,12 @@ def alinhar(falas, palavras):
 def transcrever(audio):
     from faster_whisper import WhisperModel
     m = WhisperModel('small', device='cpu', compute_type='int8')
-    segs, _ = m.transcribe(str(audio), language='pt', word_timestamps=True, vad_filter=False)
+    # decodifica pelo ffmpeg (evita erro do PyAV em algumas versões: "unexpected keyword argument 'metadata_errors'")
+    import subprocess, numpy as np
+    pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', str(audio), '-f', 's16le', '-ac', '1', '-ar', '16000', '-'],
+                         capture_output=True, check=True).stdout
+    sinal = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0
+    segs, _ = m.transcribe(sinal, language='pt', word_timestamps=True, vad_filter=False)
     return [(w.word.strip(), w.start, w.end) for s in segs for w in s.words]
 
 

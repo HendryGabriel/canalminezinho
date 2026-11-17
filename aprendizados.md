@@ -43,6 +43,47 @@ Regra: 1 linha por aprendizado, com data e vídeo. O que virou regra fixa sobe p
 | 2026-11-12 | testes | Blender 5.2: névoa como volume no World deixa todo quadro preto (Eevee e Cycles). Usar uma caixa grande com material de volume. | `ferramentas/blender/looks.py` |
 | 2026-11-12 | testes | ffmpeg 8: `-loop 1`, `-ss/-t` na entrada e `trim` depois de `zoompan` travam o filtro; mudar a cor (bt601/sem tag) no meio reinicia os filtros e some com os efeitos. Normalizar tudo em bt709 e usar `-reinit_filter 0`. | `ferramentas/edicao/montar.py` |
 | 2026-11-12 | testes | AAC sobe o pico ~0,3 dB: mirar -1,5 dBTP para sair abaixo de -1. | `ferramentas/edicao/montar.py` |
+| 2026-11-12 | 01_luta-ceu-quebrado | 1.21.11 renomeou as gamerules (`advance_time`, `advance_weather`, `spawn_mobs`; antes `doDaylightCycle`...). O `pack_format` 94 vem de `data_major` no `version.json` do server.jar. | `videos/01_luta-ceu-quebrado/mapa/gerar_mapa.py` |
+| 2026-11-12 | 01_luta-ceu-quebrado | Pelo MCP, `function_run`/`/function` do datapack responderam "failed", mas `/fill` solto e `block_fill_batch` funcionam: para montar mapa grande, mandar os fills em lote (1500 por chamada), com `forceload` antes. | `videos/01_luta-ceu-quebrado/mapa/README.md` |
+| 2026-11-12 | 01_luta-ceu-quebrado | Servidor dedicado pausa sem jogador (`pause-when-empty-seconds=-1` resolve). O jogo pausa ao perder o foco: o `view_capture` só mostra o menu até apertar F3+P ou voltar ao jogo. | guia 06 |
+
+## Short 02 (armaduras) — lições
+- Janela do Minecraft parada no "Game Menu": dá para destravar pelo PowerShell (SetForegroundWindow + SendKeys {ESC}); ffmpeg gdigrab `-i title=Minecraft*...` captura a janela em tela cheia sem o MCP.
+- AI Studio TTS (novo layout): busca de vozes em "Speaker settings"; "Enzo" existe (grave, "crisp and eager"). 1 Run de ~140 palavras = ~43 s.
+- ffmpeg drawtext com `%` no texto: usar `expansion=none`.
+- Câmera por `tp` + captura logo depois dá quadros fora de posição; melhor 1 quadro base fixo + crops/zoom no ffmpeg.
+
+## Short 03 (farm de ferro) — lições técnicas (14/11/2026)
+Scripts de gravação em `videos/03_farm-de-ferro/gravacao/` (dp.py, gen.py, gen2.py, rec.py, serie2.py); montagem em `videos/03_farm-de-ferro/montagem/`.
+- **MCP Chapmanjw tem limite (~1,7 chamadas/s, balde de ~26) e bloqueia `/function`.** Solução: gerar um datapack (`ferro`, namespace `f`) na pasta do mundo, rodar `/reload` e disparar cada função com UMA chamada: `scoreboard players set #run go N` (o `tick.mcfunction` despacha por placar). Sequências temporizadas = `schedule function ... Nt` encadeado.
+- `pack.mcmeta` do datapack precisa de `min_format`/`max_format` (94 no 1.21.11). Um `fill` acima de 32768 blocos **falha em silêncio** dentro da função (o terreno não limpava): quebrar em fatias.
+- **Câmera sem mod:** jogador montado num `block_display` (`camrig`); ~~`teleport_duration` dá travelling suave com UM `tp`~~ **(errado: o jogador montado não interpola; saía ~10 fps, vídeo travado — ver v3)**; `rotate @p yaw pitch` fixa a direção (não interpola: escolher pose inicial e final com o mesmo ângulo). `spectate` no display NÃO interpola (pula).
+- **Sombra do jogador no chão (shader):** `attribute @p minecraft:scale base set 0.0625` + invisibilidade; olho = rig_y + 1,02 × 0,0625.
+- A gravação (gfxcapture) tem ~1 s parado antes da ação e o 1º quadro vem com defeito: a montagem detecta o início do movimento e corta antes.
+- **Aldeões não geram golem em mundo plano** (testado de dia/noite, tick rate): o golem nasce por comando (`summon`) — vídeo encenado, dizer na descrição. Zumbi do barco fica `Invulnerable` para não queimar antes da hora (e é solto no sol na cena do "Mas").
+- Lava vaza pelos portões abertos e vira pedra: refazer a frente do poço (`reset_frente`) antes de cada tomada.
+- Nível 2 = `clone` do módulo em fila (z+16, +32, +48; retrato fica melhor em fila do que lado a lado). Nível 3: portal real no overworld; o "lado do Nether" foi **recriado no overworld** (clone do poço + netherrack + tinta roxa na pós) porque a câmera por rig não troca de dimensão.
+- Voz Enzo do Gemini no AI Studio via Claude in Chrome (nunca o "Voice Design", que é pago). O Whisper erra "pra/golens/pé de"; casar as palavras ao roteiro com `difflib` e repartir os tempos.
+- Trilha: chiptune sintetizado em Python (`montagem/musica.py`), sem direitos autorais; sons de pop/whoosh também sintéticos.
+
+## Short 03 v2 (farm de ferro refeita) — lições (15/11/2026)
+- **Golem de aldeão nasce sozinho no Java 1.21.11 se:** o aldeão dormiu nas últimas 24000 ticks, há 3+ aldeões a 10 blocos em pânico, o zumbi está a menos de 8 blocos **e visível** (qualquer bloco com colisão, até vidro, tampa a visão), nenhum golem a 16 blocos, e existe chão firme livre dentro da caixa ±8 em X/Z e ±6 em Y. A farm precisa ficar 7+ blocos acima do terreno e todo topo exposto na caixa precisa ser laje/muro/alçapão.
+- **Ordem importa:** deixar os aldeões dormirem SEM zumbi (com zumbi à vista eles ficam em pânico e não dormem); depois de todos terem `last_slept`, pôr o zumbi. Cama colada em cama sem uma célula livre ao lado impede o aldeão de chegar à cama: deixar uma coluna de chão livre.
+- Muros de 2 de altura dão chão para o golem nascer em cima do muro: usar muro até y+6 acima do aldeão (topo fora da caixa).
+- Água só leva 7 blocos: calha em degraus com fonte nova no topo de cada degrau, fontes cobrindo a largura inteira; sobra de bloco antigo no volume não limpo bagunça o fluxo (limpar a calha inteira antes de reconstruir).
+- Golens de 1,4 de largura em canal de 3 blocos às vezes ficam parados nas bordas (não resolvido); os do eixo central fluem bem.
+- **Portal do Nether por comando:** `setblock nether_portal[axis=x]` dentro de moldura de obsidiana funciona e `/setblock` não derruba o portal se o chão for tirado (portal sem chão: o golem chega e cai). O portal do Overworld só liga com o do Nether se este estiver à mesma altura (a busca ordena por distância 3D): construir a câmara do Nether em y160, acima do bedrock, em x/8 e z/8. Água por `setblock` funciona no Nether.
+- `tp @e[...] x y z` dentro de função manda a entidade para a dimensão de quem executa: câmera no Nether precisa de `execute in minecraft:the_nether run tp`.
+- `entity_query` em `@e[type=...]` não filtra por dimensão em alguns campos: ler `dimensionId` no resultado.
+- A lava vaza pela coluna aberta do baú: tampar com vidro.
+- Gamerules da 1.21.11 mudaram de nome e `gamerule doDaylightCycle` dá erro: o tempo ficou parado (`time set` manda).
+
+## Short 03 v3 (regravação sem travar + voz refeita) — lições (15/11/2026)
+- **Câmera travada = o jogador montado não interpola com `teleport_duration`.** Correção: um `tp` + `rotate @p` **a cada tick** (passo=1, ease na posição e no olhar); o cliente interpola entre ticks e o vídeo sai a ~30 fps únicos (antes 10–20, irregulares). Teste: `gravacao/fluidez.py` (fração de quadros que mudam e maior sequência parada); v2 = 46%/22 quadros, v3 = 68%/8.
+- **Cadeia de `schedule` maior que a tomada vaza para a próxima:** o `tp @e[tag=camrig]` da cadeia velha pega o rig novo e sequestra a câmera (T23 saiu com a vista do portal). Conferir duração da cadeia ≤ duração da tomada.
+- **Janela do Minecraft para gravar em retrato:** cliente 608×1080 com a janela em (0,−32) e 624×1119 (título fora da tela; a parte fora da tela vira faixa preta). Janela sem foco pausa o jogo se `pauseOnLostFocus` estiver ligado (aqui está falso) e o HUD volta a aparecer: apertar F1 (`ferramentas/shorts-farm/keys.py`).
+- **Voz cortada/embolada vinha do TTS gerado de uma vez só (287 palavras em 80 s = 255 palavras/min, rápido demais):** palavras engolidas ("bigorna pede" → "a pé de", "entope" → "em top", "pelo criador" → "pesucreador"). Solução: **8 blocos de 3 frases** no AI Studio (Gemini 3.8 Flash TTS, voz Enzo, estilo "pronuncie todas as palavras inteiras"), cada bloco conferido com Whisper (`voz_blocos/checar.py`: casamento com o roteiro, cortes secos), refazendo o bloco ruim; junção com corte de silêncio, fade de 12 ms e pausa de 0,2 s; velocidade final `atempo=1.10`. Palavra que o TTS pronuncia mal ("entope") → trocar no roteiro ("Nada trava").
+- AI Studio mudou: a voz fica em "Speaker settings" (buscar "Enzo"), estilo no botão "Style", baixar pelo ícone de download com o player pausado.
 
 ## Short 04 (Enterrado vivo, Minecraft 26.3 + MCPFabric) — lições (16/11/2026)
 - **MCPFabric** (`127.0.0.1:25599/rpc`, `ferramentas/minecraft/mcpfabric.py`): `command.run` aceita `function f:nome` (sem placar de despacho) e não tem o limite de ~1,7 chamadas/s do MCP antigo. `pack.mcmeta` da 26.3 usa `min_format/max_format 121`; `reload` + `datapack enable "file/NOME"` carrega o pack novo.
