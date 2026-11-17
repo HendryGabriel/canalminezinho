@@ -25,6 +25,7 @@ Neste PC o clone fica em `C:\Users\Vini\Desktop\PROJETO SITES\ESTUDOS\canalminez
 | Thumb e título | `guia/04-thumbnails-e-titulos.md` |
 | Efeitos e música | `guia/05-som-e-musica.md` (+ `analises/gemini/`) |
 | MCP e gravação | `guia/06-minecraft-mcp-e-captura.md` |
+| Animação com personagem dentro do jogo ("e se você...?", queda, viagem): cenário pelo roteiro, câmera lisa, personagem de displays, ritmo viral | `guia/16-animacao-personagem-no-jogo.md` + `ferramentas/animacao-no-jogo/` |
 | Shorts (método DonJone: afirmação forte, imagem por palavra, legenda 1–2 palavras, loop) | `guia/07-shorts.md` §0 + `analises/shorts-donjone.md` |
 | Passo a passo | `guia/08-fluxo-de-producao.md` |
 

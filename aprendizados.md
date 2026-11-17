@@ -15,6 +15,12 @@ Regra: 1 linha por aprendizado, com data e vídeo. O que virou regra fixa sobe p
 | 2026-11-13 | shorts farms v4 | Legenda fora de sincronia nos 3 v4: o Whisper adianta 0,1–0,3 s a palavra depois de cada pausa. Corrigido com `ajustar_tempos.py` (silencedetect). | guia 15 §4 |
 | 2026-11-13 | shorts farms v4 | Cena de raio/noite muda o mundo: voltar `weather clear`, `time set` e `tick rate 20` antes da próxima tomada. | guia 15 §2 |
 
+| 2026-11-16 | queda (capivara) | Cenário achado no mundo contradiz a narração ("campo de terra" virou um quadradinho na floresta). Construir o cenário pelo roteiro sobre o oceano, com bíblia frase→fato→plano e foto de cima antes de gravar. | guia 16 §2 |
+| 2026-11-16 | queda (capivara) | Usuário rejeitou terreno plano: naturalizar com colinas por ruído (máscara que preserva as features) e bosques; esconder o fim do mapa com costa irregular e serra. | guia 16 §2 |
+| 2026-11-17 | queda (capivara) | Câmera travada: `tp` por tick vindo do Python treme e `teleport_duration` não suaviza o jogador montado. Velocidade aplicada pelo servidor (datapack, macro `tp ~vx ~vy ~vz`): quadros repetidos 12,5 % → 2 %. | guia 16 §4 |
+| 2026-11-17 | queda (capivara) | Rosto do personagem atrasado em relação à cabeça: mandar todas as partes num único `function` (lista em storage). | guia 16 §3 |
+| 2026-11-17 | queda (capivara) | "Falta algo para viralizar": personagem próprio em todo plano, ~1 corte por palavra, câmera perto, 1 palavra de legenda, saturação +40 %, −12 LUFS, whoosh. | guia 16 §1 |
+| 2026-11-17 | queda (capivara) | Explosão com dezenas de summon dentro do laço de 20 Hz faz o personagem "flutuar"; rodar em thread. `fill` longe da câmera falha sem `forceload` e deixa lixo de takes antigos (buraco antes do pouso). | guia 16 §2 e §4 |
 
 ## Resultado no YouTube
 | Data | Vídeo | Views 48 h | Views 7 d | Retenção média | CTR | Thumb vencedora | O que mudar |
