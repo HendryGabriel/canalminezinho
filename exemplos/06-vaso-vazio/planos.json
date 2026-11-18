@@ -1,0 +1,472 @@
+[
+  {
+    "nome": "P01",
+    "t0": 0.0,
+    "t1": 0.98,
+    "take": "P01",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "O rei entregou uma",
+    "descricao_visual": "Salão Imperial vermelho e dourado (palacio) com janelas treliçadas claras ao fundo; o Rei em pé diante da fila de jovens reunidos."
+  },
+  {
+    "nome": "P02",
+    "t0": 0.98,
+    "t1": 2.36,
+    "take": "P02",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "semente para cada jovem e",
+    "descricao_visual": "Super close das mãos do Rei depositando delicadamente uma semente na palma aberta da mão de um jovem no salão (palacio)."
+  },
+  {
+    "nome": "P03",
+    "t0": 2.36,
+    "t1": 3.9,
+    "take": "P03",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "mandou cultivar a melhor planta",
+    "descricao_visual": "Travelling lateral pela fila de jovens perfilados no Salão Imperial (fila_salao) olhando suas sementes nas mãos diante do Rei."
+  },
+  {
+    "nome": "P04",
+    "t0": 3.9,
+    "t1": 5.512,
+    "take": "P04",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "que conseguissem.",
+    "descricao_visual": "Contra-plongée solene do Rei erguendo a mão em instrução final aos jovens atentos no salão vermelho e dourado (palacio)."
+  },
+  {
+    "nome": "P05",
+    "t0": 5.512,
+    "t1": 6.72,
+    "take": "P05",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "O rei já estava velho e",
+    "descricao_visual": "Close no rosto envelhecido do Rei de barba branca longa e coroa imperial dourada, com expressão cansada e pensativa (trono)."
+  },
+  {
+    "nome": "P06",
+    "t0": 6.72,
+    "t1": 8.12,
+    "take": "P06",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "precisava escolher o herdeiro do",
+    "descricao_visual": "Plano médio do Rei sentado no alto do trono dourado esculpido (trono), mão apoiada no queixo refletindo sobre a sucessão."
+  },
+  {
+    "nome": "P07",
+    "t0": 8.12,
+    "t1": 9.28,
+    "take": "P07",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "trono.",
+    "descricao_visual": "Plano aberto simétrico em contra-plongée destacando o trono dourado elevado em degrau alto (trono) sob a luz das janelas treliçadas."
+  },
+  {
+    "nome": "P08",
+    "t0": 9.28,
+    "t1": 10.82,
+    "take": "P08",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Um jovem chamado Ping amava",
+    "descricao_visual": "Panorâmica luminosa do jardim florido (jardim) com cerejeiras rosas, bambus, lago cristalino e montanhas verdes ao fundo, revelando a Capivara Ping."
+  },
+  {
+    "nome": "P09",
+    "t0": 10.82,
+    "t1": 12.431,
+    "take": "P09",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "jardinagem.",
+    "descricao_visual": "Close médio da Capivara Ping sorridente e feliz ajoelhada no jardim florido (jardim), plantando cuidadosamente a semente em seu vaso de barro."
+  },
+  {
+    "nome": "P10",
+    "t0": 12.431,
+    "t1": 13.72,
+    "take": "P10",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Ele regou a semente,",
+    "descricao_visual": "Close do regador nas patinhas de Ping jorrando água cristalina sobre a terra do vaso na bancada (varanda / mesa_jardim)."
+  },
+  {
+    "nome": "P11",
+    "t0": 13.72,
+    "t1": 14.68,
+    "take": "P11",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "colocou no sol e",
+    "descricao_visual": "Plano médio do vaso de barro posicionado sob a luz dourada do sol na varanda ensolarada com cerejeiras ao fundo (varanda)."
+  },
+  {
+    "nome": "P12",
+    "t0": 14.68,
+    "t1": 16.635,
+    "take": "P12",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "usou a melhor terra.",
+    "descricao_visual": "Super close das patinhas de Ping colocando e moldando terra escura rica e fértil dentro do vaso (mesa_jardim)."
+  },
+  {
+    "nome": "P13",
+    "t0": 16.635,
+    "t1": 18.1,
+    "take": "P13",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Ficou vigiando de perto,",
+    "descricao_visual": "Close terno da Capivara Ping com o rosto colado bem pertinho da borda do vaso, vigiando atentamente a terra (janela_casa)."
+  },
+  {
+    "nome": "P14",
+    "t0": 18.1,
+    "t1": 19.74,
+    "take": "P14",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "esperando algum broto nascer,",
+    "descricao_visual": "Vista externa pela janela de madeira da casa (janela_casa) com o vaso no peitoril e Ping lá dentro esperando enquanto a luz do dia muda na passagem de tempo."
+  },
+  {
+    "nome": "P15",
+    "t0": 19.74,
+    "t1": 21.596,
+    "take": "P15",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "mas nada cresceu.",
+    "descricao_visual": "Close triste da Capivara Ping de orelhas caídas olhando o vaso só com terra nua no peitoril, sem nenhum broto (janela_casa)."
+  },
+  {
+    "nome": "P16",
+    "t0": 21.596,
+    "t1": 22.48,
+    "take": "P16",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Quando chegou o dia de",
+    "descricao_visual": "Plano geral imponente do Pátio e fachada vermelha e dourada do Palácio Imperial (palacio) sob o sol da manhã do grande dia."
+  },
+  {
+    "nome": "P17",
+    "t0": 22.48,
+    "t1": 23.46,
+    "take": "P17",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "mostrar ao rei,",
+    "descricao_visual": "Interior solene do Salão Imperial (palacio / trono) com o Rei aguardando no trono enquanto os jovens entram pelo tapete vermelho."
+  },
+  {
+    "nome": "P18",
+    "t0": 23.46,
+    "t1": 24.78,
+    "take": "P18",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "os outros jovens trouxeram",
+    "descricao_visual": "Plano conjunto dos três jovens rivais alinhados e orgulhosos no salão (fila_salao), estufando o peito atrás de seus vasos."
+  },
+  {
+    "nome": "P19",
+    "t0": 24.78,
+    "t1": 25.8,
+    "take": "P19",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "plantas enormes e",
+    "descricao_visual": "Contra-plongée impressionante de um vaso rival exibindo um arbusto gigante e folhagem exuberante no salão (fila_salao)."
+  },
+  {
+    "nome": "P20",
+    "t0": 25.8,
+    "t1": 27.21,
+    "take": "P20",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "coloridas.",
+    "descricao_visual": "Travelling próximo destacando as flores enormes e vibrantes vermelhas, azuis e douradas nos vasos dos outros rivais (fila_salao)."
+  },
+  {
+    "nome": "P21",
+    "t0": 27.21,
+    "t1": 28.46,
+    "take": "P21",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Mas Ping só tinha o seu",
+    "descricao_visual": "Plano médio contrastante da pequena Capivara Ping encolhida ao lado das plantas gigantes, segurando seu pequeno vaso (fila_salao)."
+  },
+  {
+    "nome": "P22",
+    "t0": 28.46,
+    "t1": 29.44,
+    "take": "P22",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "vaso vazio,",
+    "descricao_visual": "Detalhe em plongée do vaso de barro de Ping contendo apenas terra escura lisa, completamente vazio (fila_salao)."
+  },
+  {
+    "nome": "P23",
+    "t0": 29.44,
+    "t1": 31.277,
+    "take": "P23",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "sem nenhuma planta.",
+    "descricao_visual": "Close emocionante da Capivara Ping cabisbaixa olhando tristemente para seu vaso sem nenhuma planta (fila_salao)."
+  },
+  {
+    "nome": "P24",
+    "t0": 31.277,
+    "t1": 32.64,
+    "take": "P24",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Mesmo assim, ele decidiu",
+    "descricao_visual": "Close de Ping na entrada do salão respirando fundo e erguendo a cabeça com coragem, abraçando firme o vaso vazio (tapete_real)."
+  },
+  {
+    "nome": "P25",
+    "t0": 32.64,
+    "t1": 34.231,
+    "take": "P25",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "levar o vaso.",
+    "descricao_visual": "Travelling acompanhando Ping caminhando firme pelo tapete vermelho imperial (tapete_real) até seu lugar entre os rivais com vasos gigantes."
+  },
+  {
+    "nome": "P26",
+    "t0": 34.231,
+    "t1": 35.48,
+    "take": "P26",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "O rei olhou cada planta",
+    "descricao_visual": "Plano médio lateral do Rei caminhando sério diante da fila de rivais (fila_salao), inspecionando de perto cada planta gigante."
+  },
+  {
+    "nome": "P27",
+    "t0": 35.48,
+    "t1": 36.64,
+    "take": "P27",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "sem dizer uma palavra,",
+    "descricao_visual": "Close tenso do rosto sério e silencioso do Rei passando pelas flores coloridas dos rivais sem dizer uma palavra (fila_salao)."
+  },
+  {
+    "nome": "P28",
+    "t0": 36.64,
+    "t1": 38.513,
+    "take": "P28",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "até chegar em Ping.",
+    "descricao_visual": "O Rei caminha até o fim da fila e para diante da pequena Capivara Ping, encarando em silêncio o vaso vazio (fila_salao)."
+  },
+  {
+    "nome": "P29",
+    "t0": 38.513,
+    "t1": 39.52,
+    "take": "P29",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Então ele sorriu e",
+    "descricao_visual": "Close luminoso do rosto do Rei desfazendo a seriedade e abrindo um sorriso caloroso e admirado para Ping (fila_salao)."
+  },
+  {
+    "nome": "P30",
+    "t0": 39.52,
+    "t1": 40.88,
+    "take": "P30",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "anunciou Ping como o grande",
+    "descricao_visual": "Plano médio triunfante diante do trono (trono / fila_salao): o Rei ergue o braço da Capivara Ping anunciando-o vencedor."
+  },
+  {
+    "nome": "P31",
+    "t0": 40.88,
+    "t1": 42.285,
+    "take": "P31",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "vencedor.",
+    "descricao_visual": "Reação em plano conjunto dos três rivais boquiabertos e chocados atrás de suas plantas enormes enquanto Ping comemora tímido (fila_salao)."
+  },
+  {
+    "nome": "P32",
+    "t0": 42.285,
+    "t1": 43.52,
+    "take": "P32",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "É que antes de tudo,",
+    "descricao_visual": "Flashback na câmara lateral real (cozinha): o Rei em pé diante de um grande caldeirão aquecido sobre o braseiro em chamas."
+  },
+  {
+    "nome": "P33",
+    "t0": 43.52,
+    "t1": 44.615,
+    "take": "P33",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "o rei tinha fervido",
+    "descricao_visual": "Close lateral do caldeirão fervendo sobre o fogo vivo enquanto o Rei despeja as sementes na água borbulhante com vapor (cozinha)."
+  },
+  {
+    "nome": "P34",
+    "t0": 44.615,
+    "t1": 46.04,
+    "take": "P34",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "todas as sementes para que nenhuma",
+    "descricao_visual": "Plongée dentro da panela real mostrando todas as sementes girando entre bolhas intensas e vapor na água fervente (cozinha)."
+  },
+  {
+    "nome": "P35",
+    "t0": 46.04,
+    "t1": 47.851,
+    "take": "P35",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "pudesse crescer.",
+    "descricao_visual": "Super close de uma semente escura cozida erguida entre dois hashis de madeira acima do vapor da panela (cozinha)."
+  },
+  {
+    "nome": "P36",
+    "t0": 47.851,
+    "t1": 49.329,
+    "take": "P36",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Ou seja, ele sabia que",
+    "descricao_visual": "Retorno ao Salão Imperial (trono): close firme do Rei olhando do alto com sabedoria para a fila de jovens."
+  },
+  {
+    "nome": "P37",
+    "t0": 49.329,
+    "t1": 50.24,
+    "take": "P37",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "todos os outros tinham",
+    "descricao_visual": "Plano pelas costas dos três rivais diante do Rei ao fundo no trono (trono / fila_salao), encolhendo os ombros tensos."
+  },
+  {
+    "nome": "P38",
+    "t0": 50.24,
+    "t1": 51.48,
+    "take": "P38",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "trapaceado e trocado a",
+    "descricao_visual": "Close frontal dos rivais corando e coçando a cabeça envergonhados por terem trapaceado (fila_salao)."
+  },
+  {
+    "nome": "P39",
+    "t0": 51.48,
+    "t1": 53.212,
+    "take": "P39",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "semente por outra.",
+    "descricao_visual": "Plano lateral dos rivais cabisbaixos desviando o olhar ao lado dos vasos com plantas falsas que trouxeram (fila_salao)."
+  },
+  {
+    "nome": "P40",
+    "t0": 53.212,
+    "t1": 54.66,
+    "take": "P40",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Mas Ping foi honesto,",
+    "descricao_visual": "Close sereno e iluminado da Capivara Ping honesta diante do degrau do trono, segurando com humildade seu vaso vazio (trono)."
+  },
+  {
+    "nome": "P41",
+    "t0": 54.66,
+    "t1": 55.58,
+    "take": "P41",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "e o rei sabia que a",
+    "descricao_visual": "Detalhe solene das mãos do Rei erguendo a coroa imperial dourada diante da Capivara Ping (trono)."
+  },
+  {
+    "nome": "P42",
+    "t0": 55.58,
+    "t1": 57.22,
+    "take": "P42",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "honestidade vale muito mais do que o",
+    "descricao_visual": "Contra-plongée emocionante do Rei descendo a coroa imperial dourada sobre a cabeça de Ping diante do trono (trono)."
+  },
+  {
+    "nome": "P43",
+    "t0": 57.22,
+    "t1": 58.5,
+    "take": "P43",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "resultado.",
+    "descricao_visual": "Plano emocionante diante do trono: o Rei ao lado com a mão pousada no ombro de Ping coroado, que segura à frente o vaso vazio."
+  },
+  {
+    "nome": "P44",
+    "t0": 58.5,
+    "t1": 60.18,
+    "take": "P44",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "Assim, Ping herdou o trono e",
+    "descricao_visual": "A Capivara Ping coroada sentada com nobreza no Trono Imperial Dourado enquanto o velho Rei sorri orgulhoso ao lado."
+  },
+  {
+    "nome": "P45",
+    "t0": 60.18,
+    "t1": 62.188,
+    "take": "P45",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "entregou sementes de verdade ao povo,",
+    "descricao_visual": "No Salão Imperial, Ping coroado entrega sementes vivas e verdes aos três jovens, que sorriem agradecidos."
+  },
+  {
+    "nome": "P46",
+    "t0": 62.188,
+    "t1": 63.6,
+    "take": "P46",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "fazendo todo o reino florescer",
+    "descricao_visual": "Close radiante no jardim florido sob o sol: o vaso de Ping agora exibe uma exuberante flor dourada e vermelha cercada de brilhos."
+  },
+  {
+    "nome": "P47",
+    "t0": 63.6,
+    "t1": 65.913,
+    "take": "P47",
+    "s0": 0.0,
+    "linhas": null,
+    "frase_trecho": "como nunca antes.",
+    "descricao_visual": "Plano final épico em grua no Jardim de Cerejeiras e Lago Koi: Ping coroado segurando seu vaso florido ao lado do sábio Rei."
+  }
+]

@@ -21,6 +21,9 @@ Regra: 1 linha por aprendizado, com data e vídeo. O que virou regra fixa sobe p
 | 2026-11-17 | queda (capivara) | Rosto do personagem atrasado em relação à cabeça: mandar todas as partes num único `function` (lista em storage). | guia 16 §3 |
 | 2026-11-17 | queda (capivara) | "Falta algo para viralizar": personagem próprio em todo plano, ~1 corte por palavra, câmera perto, 1 palavra de legenda, saturação +40 %, −12 LUFS, whoosh. | guia 16 §1 |
 | 2026-11-17 | queda (capivara) | Explosão com dezenas de summon dentro do laço de 20 Hz faz o personagem "flutuar"; rodar em thread. `fill` longe da câmera falha sem `forceload` e deixa lixo de takes antigos (buraco antes do pouso). | guia 16 §2 e §4 |
+| 2026-11-17 | vaso (capivara) | Capivara tem cabeça larga (`±6.5*U`) e focinho até `+0.62 m`: abrir pivôs dos ombros para `±6.8*U`, posicionar objetos segurados a `0.56 m` à frente (`y_piso + 0.46`) e limitar pitch da cabeça a `≤15°` para braços e objetos não entrarem no focinho/cabeça. | guia 16 §3 / skill vaso-vazio |
+| 2026-11-17 | vaso (capivara) | Personagem com `escala != 1.0` exige `ALT_CHAO = 18 * U * escala` (senão afunda no piso); captura determinística via `vision.screenshot` com `/tick rate 3.4` + pré-roll de `0.06 s` entrega 0 % de quadros repetidos mesmo em sessão isolada sem `gfxcapture`. | guia 16 §3 e §4 / skill vaso-vazio |
+| 2026-11-17 | vaso (capivara) | Pose sentada em trono exige dobrar joelho em 90° (`_rosto` dividindo coxa e canela) sobre assento `slab[type=bottom]` sem parede frontal; vídeos <60s ganham epílogo narrativo (4 planos) para passar de 1 min e monetizar no TikTok sem perder ritmo; auditar todos os `vXX.mp4` antes do render final. | `skill/vaso-vazio-shorts-3d/SKILL.md` |
 
 ## Resultado no YouTube
 | Data | Vídeo | Views 48 h | Views 7 d | Retenção média | CTR | Thumb vencedora | O que mudar |

@@ -21,7 +21,7 @@ Grave as respostas em `videos/NN_tema/projeto.md`. Se a conversa continuar um v�
 - Copiar os modelos de `modelos/` para `videos/NN_tema/` e preencher. Ver o exemplo do formato em `exemplos/` antes de escrever.
 - Seguir `checklists.md` em cada etapa. No fim do vídeo: escrever em `aprendizados.md`.
 - Música, sons, skins, rigs e mapas: só de `biblioteca/` (licença conferida) e com créditos na descrição.
-- Scripts: `ferramentas/alinhar_voz.py` (voz → tempos), `ferramentas/minecraft/` (datapack de cenas, OBS), `ferramentas/edicao/` (montagem, efeitos, lip sync, thumbs), `ferramentas/blender/` (looks, efeitos, montar cena), `ferramentas/shorts-farm/` (shorts de farm com história gravados no jogo — guia 15), `ferramentas/animacao-no-jogo/` (personagem animado de block_display, cenário por script e câmera lisa — guia 16).
+- Scripts: `ferramentas/alinhar_voz.py` (voz → tempos), `ferramentas/minecraft/` (datapack de cenas, OBS), `ferramentas/edicao/` (montagem, efeitos, lip sync, thumbs), `ferramentas/blender/` (looks, efeitos, montar cena), `ferramentas/shorts-farm/` (shorts de farm com história gravados no jogo — guia 15), `ferramentas/animacao-no-jogo/` (personagem animado de block_display, cenário por script e câmera lisa — guia 16), `exemplos/06-vaso-vazio/` + `skill/vaso-vazio-shorts-3d/SKILL.md` (**padrão atual e completo para shorts narrativos 3D >60s no estilo "O Vaso Vazio"**).
 
 ## Ferramentas
 O Claude pode usar Blender (por script), ffmpeg, OBS, Minecraft + MCP, Python e o Claude in Chrome (Gemini, AI Studio, sites de mods). Instalar programa/mod, aceitar termos ou comprar: só com o OK do usuário.

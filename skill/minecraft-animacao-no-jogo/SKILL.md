@@ -5,8 +5,7 @@ description: Produz shorts de animação com personagem DENTRO do Minecraft Java
 
 # Animação com personagem dentro do jogo
 
-Fonte: repositório `canalminezinho` (github.com/HendryGabriel/canalminezinho) — `guia/16-animacao-personagem-no-jogo.md` (método completo),
-`ferramentas/animacao-no-jogo/` (scripts + datapack) e `exemplos/05-queda-capivara/` (versões e feedbacks).
+Fonte: repositório `canalminezinho` (github.com/HendryGabriel/canalminezinho) — **para shorts de história com modelos 3D ricos, proporções anti-clipping e captura determinística 30 fps no padrão "O Vaso Vazio", leia prioritariamente `skill/vaso-vazio-shorts-3d/SKILL.md` e `exemplos/06-vaso-vazio/`**; veja também `guia/16-animacao-personagem-no-jogo.md`, `ferramentas/animacao-no-jogo/` (scripts + datapack) e `exemplos/05-queda-capivara/`.
 
 ## Ordem de trabalho
 1. **Bíblia do cenário**: cada frase que afirma algo sobre o lugar → fato visual → elemento → plano. Mostre ao usuário antes de construir.

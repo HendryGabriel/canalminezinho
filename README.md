@@ -32,8 +32,10 @@ Depois ele segue o guia do formato escolhido. O Claude usa Blender, ffmpeg, OBS,
 | [guia/13-vozes.md](guia/13-vozes.md) | Voz: gravar você mesmo ou TTS do Gemini (voz fixa por personagem) |
 | [guia/14-estudo-reel-luta.md](guia/14-estudo-reel-luta.md) | Estudo quadro a quadro de um reel de luta estilo anime: cortes, quadros de impacto, efeitos e como fazer com personagens próprios |
 | [guia/15-shorts-farm-com-historia.md](guia/15-shorts-farm-com-historia.md) | Short de farm com história (~60 s): protagonista com problema real do jogo, farm gravada no jogo pela ponte MCP, câmera cinematográfica, montagem por JSON |
+| [guia/16-animacao-personagem-no-jogo.md](guia/16-animacao-personagem-no-jogo.md) | Animação com personagem dentro do jogo (estilo "e se você...?"): cenário pelo roteiro, câmera lisa por datapack, personagem de displays |
 | [guia/17-desafio-serie.md](guia/17-desafio-serie.md) | Formato 4: desafio/série encenado ("Skyblock mas...", 100 dias): molde, regras de retenção, honestidade e como filmar sem jogar |
-| [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code que usa tudo isso |
+| [skill/vaso-vazio-shorts-3d/SKILL.md](skill/vaso-vazio-shorts-3d/SKILL.md) | **Skill & Manual Completo (Modelo "O Vaso Vazio")**: shorts narrativos >60s 100% no Minecraft com `ModeloRico` 3D, proporções anti-clipping, captura determinística 30 fps (`/tick rate 3.4`), SFX `.ogg` exatos e edição viral |
+| [skill/minecraft-documentario/SKILL.md](skill/minecraft-documentario/SKILL.md) | Skill do Claude Code para documentários longos e machinima |
 
 ## Pronto para usar
 | O quê | Onde |
